@@ -1,0 +1,79 @@
+@import "tailwindcss";
+
+@theme {
+  --color-ink: #1c2633;
+  --color-sub: #5b6676;
+  --color-line: #d9dee6;
+  --color-paper: #f4f6f9;
+  --color-navy: #1d2b3e;
+  --color-ai: #2459a6;
+  --color-ai-soft: #e8f0fb;
+  --color-human: #b4381f;
+  --color-human-soft: #fcebe6;
+  --color-ok: #1d7a4f;
+  --color-ok-soft: #e4f4ec;
+  --color-warn: #946200;
+  --color-warn-soft: #fdf3dc;
+  --color-off: #7c8592;
+  --font-sans: "Hiragino Sans", "Hiragino Kaku Gothic ProN", "Yu Gothic UI", "Meiryo", system-ui, sans-serif;
+}
+
+:root {
+  color-scheme: light;
+}
+body {
+  background: var(--color-paper);
+  color: var(--color-ink);
+  font-family: var(--font-sans);
+  line-height: 1.65;
+  -webkit-text-size-adjust: 100%;
+}
+
+@layer components {
+  .card {
+    @apply rounded-xl border border-line bg-white p-5;
+  }
+  .btn {
+    @apply inline-flex items-center justify-center gap-1.5 rounded-lg border border-line bg-white px-4 py-2 text-sm font-bold text-ink transition hover:bg-paper disabled:cursor-not-allowed disabled:opacity-45;
+  }
+  .btn-primary {
+    @apply border-ai bg-ai text-white hover:bg-[#1c4a8c];
+  }
+  .btn-ok {
+    @apply border-ok bg-ok text-white hover:bg-[#166240];
+  }
+  .btn-danger {
+    @apply border-human bg-white text-human hover:bg-human-soft;
+  }
+  .chip {
+    @apply inline-flex items-center rounded-full px-2.5 py-0.5 text-xs font-bold whitespace-nowrap;
+  }
+  .tbl {
+    @apply w-full border-collapse text-sm;
+  }
+  .tbl th {
+    @apply border-b border-line bg-paper px-3 py-2 text-left text-xs font-bold text-sub whitespace-nowrap;
+  }
+  .tbl td {
+    @apply border-b border-line px-3 py-2.5 align-top;
+  }
+  .field {
+    @apply w-full rounded-lg border border-line bg-white px-3 py-2 text-sm outline-none focus:border-ai focus:ring-2 focus:ring-ai/20;
+  }
+  .h2 {
+    @apply mb-3 text-lg font-bold;
+  }
+}
+
+mark.flag {
+  background: #ffd9cf;
+  color: #7a1d0a;
+  border-bottom: 2px solid var(--color-human);
+  padding: 0 1px;
+  border-radius: 2px;
+}
+mark.good {
+  background: #dcebfb;
+  color: inherit;
+  border-bottom: 2px dotted var(--color-ai);
+}

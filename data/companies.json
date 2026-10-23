@@ -1,0 +1,1589 @@
+[
+ {
+  "id": "c01",
+  "name": "みなと飲料株式会社（架空）",
+  "industry": "飲料",
+  "size": "300-1000",
+  "region": "東京",
+  "summary": "清涼飲料と機能性飲料を製造・販売する飲料メーカー。主力は果汁炭酸とスポーツドリンク。",
+  "department": "広報・宣伝部",
+  "channels": [
+   "email",
+   "form",
+   "sns"
+  ],
+  "status": "new",
+  "domain": "minato-drink.example",
+  "events": [
+   {
+    "type": "launch",
+    "date": "2026-09-01",
+    "short": "20代向けの炭酸飲料『スパークリングゆず（架空）』を全国で発売",
+    "sourceId": "c01-s2"
+   },
+   {
+    "type": "sports",
+    "date": "2026-07-12",
+    "short": "地元の市民マラソン大会に協賛",
+    "sourceId": "c01-s3"
+   }
+  ],
+  "siteSourceId": "c01-s1"
+ },
+ {
+  "id": "c02",
+  "name": "あさひスポーツ用品株式会社（架空）",
+  "industry": "スポーツ用品",
+  "size": "300-1000",
+  "region": "大阪",
+  "summary": "ランニングシューズとトレーニングウェアの企画・販売。直営店を関西に12店舗持つ。",
+  "department": "マーケティング部",
+  "channels": [
+   "email",
+   "form",
+   "sns"
+  ],
+  "status": "new",
+  "domain": "asahi-sports.example",
+  "events": [
+   {
+    "type": "launch",
+    "date": "2026-08-20",
+    "short": "厚底のランニングシューズ『ASAHI RUN 3（架空）』を発売",
+    "sourceId": "c02-s2"
+   },
+   {
+    "type": "youth",
+    "date": "2026-10-01",
+    "short": "高校生・大学生向けのアンバサダー募集を開始",
+    "sourceId": "c02-s3"
+   }
+  ],
+  "siteSourceId": "c02-s1"
+ },
+ {
+  "id": "c03",
+  "name": "ひかり生命保険株式会社（架空）",
+  "industry": "保険",
+  "size": "1000+",
+  "region": "東京",
+  "summary": "個人向けの生命保険と医療保険を扱う保険会社。健康増進の取り組みに力を入れている。",
+  "department": "ブランド戦略部",
+  "channels": [
+   "email",
+   "form"
+  ],
+  "status": "new",
+  "domain": "hikari-life.example",
+  "events": [
+   {
+    "type": "anniversary",
+    "date": "2026-11-01",
+    "short": "創業50周年の記念事業を発表",
+    "sourceId": "c03-s2"
+   },
+   {
+    "type": "region",
+    "date": "2026-06-05",
+    "short": "健康づくりの地域イベントを全国10か所で開始",
+    "sourceId": "c03-s3"
+   }
+  ],
+  "siteSourceId": "c03-s1"
+ },
+ {
+  "id": "c04",
+  "name": "北星信用金庫（架空）",
+  "industry": "金融",
+  "size": "300-1000",
+  "region": "北海道",
+  "summary": "道央を中心に28店舗を持つ信用金庫。地域の中小企業と個人のお客様を支えている。",
+  "department": "地域振興部",
+  "channels": [
+   "email",
+   "form"
+  ],
+  "status": "new",
+  "domain": "hokusei-shinkin.example",
+  "events": [
+   {
+    "type": "region",
+    "date": "2026-09-10",
+    "short": "地元のジュニアスポーツを応援する基金を設立",
+    "sourceId": "c04-s2"
+   },
+   {
+    "type": "youth",
+    "date": "2026-07-01",
+    "short": "若い世代向けのアプリを公開",
+    "sourceId": "c04-s3"
+   }
+  ],
+  "siteSourceId": "c04-s1"
+ },
+ {
+  "id": "c05",
+  "name": "さくら食品株式会社（架空）",
+  "industry": "食品",
+  "size": "1000+",
+  "region": "愛知",
+  "summary": "冷凍食品と調味料のメーカー。",
+  "department": "宣伝部",
+  "channels": [
+   "email"
+  ],
+  "status": "client",
+  "domain": "sakura-foods.example",
+  "events": [
+   {
+    "type": "launch",
+    "date": "2026-08-01",
+    "short": "たんぱく質を強化した冷凍弁当を発売",
+    "sourceId": "c05-s2"
+   }
+  ],
+  "siteSourceId": "c05-s1"
+ },
+ {
+  "id": "c06",
+  "name": "かぜのね製菓株式会社（架空）",
+  "industry": "食品",
+  "size": "300-1000",
+  "region": "静岡",
+  "summary": "焼き菓子とスナックの製造・販売。",
+  "department": "販売促進部",
+  "channels": [
+   "email",
+   "form"
+  ],
+  "status": "declined",
+  "domain": "kazenone.example",
+  "events": [
+   {
+    "type": "anniversary",
+    "date": "2026-05-01",
+    "short": "創業40周年の記念商品を発売",
+    "sourceId": "c06-s2"
+   }
+  ],
+  "siteSourceId": "c06-s1"
+ },
+ {
+  "id": "c07",
+  "name": "ブルーライン保険株式会社（架空）",
+  "industry": "保険",
+  "size": "1000+",
+  "region": "東京",
+  "summary": "損害保険とスポーツ保険を扱う保険会社。",
+  "department": "広報部",
+  "channels": [
+   "email"
+  ],
+  "status": "unsubscribed",
+  "domain": "blueline-ins.example",
+  "events": [
+   {
+    "type": "sports",
+    "date": "2026-06-01",
+    "short": "スポーツ保険の新しいプランを開始",
+    "sourceId": "c07-s2"
+   }
+  ],
+  "siteSourceId": "c07-s1"
+ },
+ {
+  "id": "c08",
+  "name": "やまびこ乳業株式会社（架空）",
+  "industry": "食品",
+  "size": "300-1000",
+  "region": "宮城",
+  "summary": "牛乳とヨーグルトの製造・販売。東北の酪農家と提携している。",
+  "department": "マーケティング部",
+  "channels": [
+   "email",
+   "form",
+   "sns"
+  ],
+  "status": "new",
+  "domain": "yamabiko-milk.example",
+  "events": [
+   {
+    "type": "launch",
+    "date": "2026-09-25",
+    "short": "運動後のための高たんぱくヨーグルトを発売",
+    "sourceId": "c08-s2"
+   },
+   {
+    "type": "sports",
+    "date": "2026-05-20",
+    "short": "地元のプロバスケットボールチームの公式サプライヤーに就任",
+    "sourceId": "c08-s3"
+   }
+  ],
+  "siteSourceId": "c08-s1"
+ },
+ {
+  "id": "c09",
+  "name": "トライフィット株式会社（架空）",
+  "industry": "フィットネス",
+  "size": "50-300",
+  "region": "東京",
+  "summary": "24時間営業のフィットネスジムを首都圏で35店舗運営。",
+  "department": "マーケティング部",
+  "channels": [
+   "email",
+   "form",
+   "sns"
+  ],
+  "status": "new",
+  "domain": "trifit.example",
+  "events": [
+   {
+    "type": "store",
+    "date": "2026-10-05",
+    "short": "首都圏で5店舗の新規出店を発表",
+    "sourceId": "c09-s2"
+   },
+   {
+    "type": "youth",
+    "date": "2026-08-15",
+    "short": "学生向けの月額プランを開始",
+    "sourceId": "c09-s3"
+   }
+  ],
+  "siteSourceId": "c09-s1"
+ },
+ {
+  "id": "c10",
+  "name": "しおかぜウォーター株式会社（架空）",
+  "industry": "飲料",
+  "size": "50-300",
+  "region": "広島",
+  "summary": "瀬戸内の水を使ったミネラルウォーターの製造・販売。",
+  "department": "営業企画部",
+  "channels": [
+   "email",
+   "form"
+  ],
+  "status": "new",
+  "domain": "shiokaze-water.example",
+  "events": [
+   {
+    "type": "sports",
+    "date": "2026-08-08",
+    "short": "地元の高校野球の大会に飲料を提供",
+    "sourceId": "c10-s2"
+   },
+   {
+    "type": "launch",
+    "date": "2026-04-15",
+    "short": "持ち運びやすい小容量のボトルを発売",
+    "sourceId": "c10-s3"
+   }
+  ],
+  "siteSourceId": "c10-s1"
+ },
+ {
+  "id": "c11",
+  "name": "グリーンプロテイン株式会社（架空）",
+  "industry": "食品",
+  "size": "10-50",
+  "region": "福岡",
+  "summary": "植物性のプロテインの開発・ネット販売。",
+  "department": "経営企画室",
+  "channels": [
+   "email",
+   "form",
+   "sns"
+  ],
+  "status": "new",
+  "domain": "green-protein.example",
+  "events": [
+   {
+    "type": "launch",
+    "date": "2026-09-18",
+    "short": "大豆と抹茶のプロテインを発売",
+    "sourceId": "c11-s2"
+   },
+   {
+    "type": "youth",
+    "date": "2026-10-10",
+    "short": "SNSでの若い世代向けの発信を強化",
+    "sourceId": "c11-s3"
+   }
+  ],
+  "siteSourceId": "c11-s1"
+ },
+ {
+  "id": "c12",
+  "name": "あおば損害保険株式会社（架空）",
+  "industry": "保険",
+  "size": "1000+",
+  "region": "神奈川",
+  "summary": "自動車保険と火災保険を中心とする損害保険会社。",
+  "department": "広報・CSR部",
+  "channels": [
+   "email",
+   "form"
+  ],
+  "status": "new",
+  "domain": "aoba-sonpo.example",
+  "events": [
+   {
+    "type": "region",
+    "date": "2026-07-20",
+    "short": "子ども向けの交通安全教室を開始",
+    "sourceId": "c12-s2"
+   }
+  ],
+  "siteSourceId": "c12-s1"
+ },
+ {
+  "id": "c13",
+  "name": "こがね製パン株式会社（架空）",
+  "industry": "食品",
+  "size": "300-1000",
+  "region": "京都",
+  "summary": "パンと焼き菓子の製造・販売。関西のスーパーに卸している。",
+  "department": "商品企画部",
+  "channels": [
+   "email",
+   "form"
+  ],
+  "status": "new",
+  "domain": "kogane-bread.example",
+  "events": [
+   {
+    "type": "launch",
+    "date": "2026-10-02",
+    "short": "運動の前後に食べる補食パンのシリーズを発売",
+    "sourceId": "c13-s2"
+   }
+  ],
+  "siteSourceId": "c13-s1"
+ },
+ {
+  "id": "c14",
+  "name": "スマイル銀行株式会社（架空）",
+  "industry": "金融",
+  "size": "1000+",
+  "region": "大阪",
+  "summary": "関西を地盤とする地方銀行。",
+  "department": "経営企画部",
+  "channels": [
+   "email"
+  ],
+  "status": "new",
+  "domain": "smile-bank.example",
+  "events": [
+   {
+    "type": "anniversary",
+    "date": "2026-12-01",
+    "short": "創立70周年の記念事業を発表",
+    "sourceId": "c14-s2"
+   }
+  ],
+  "siteSourceId": "c14-s1"
+ },
+ {
+  "id": "c15",
+  "name": "ほしぞら飲料株式会社（架空）",
+  "industry": "飲料",
+  "size": "50-300",
+  "region": "静岡",
+  "summary": "お茶とコーヒーの飲料の製造・販売。",
+  "department": "営業部",
+  "channels": [
+   "email",
+   "form"
+  ],
+  "status": "new",
+  "domain": "hoshizora-drink.example",
+  "events": [
+   {
+    "type": "launch",
+    "date": "2026-06-10",
+    "short": "低カフェインの緑茶飲料を発売",
+    "sourceId": "c15-s2"
+   }
+  ],
+  "siteSourceId": "c15-s1"
+ },
+ {
+  "id": "c16",
+  "name": "ランナーズラボ株式会社（架空）",
+  "industry": "スポーツ用品",
+  "size": "10-50",
+  "region": "東京",
+  "summary": "ランニング用の時計とアプリの開発。",
+  "department": "事業開発部",
+  "channels": [
+   "email",
+   "form",
+   "sns"
+  ],
+  "status": "new",
+  "domain": "runners-lab.example",
+  "events": [
+   {
+    "type": "launch",
+    "date": "2026-09-05",
+    "short": "ランニング用の新しいアプリを公開",
+    "sourceId": "c16-s2"
+   },
+   {
+    "type": "sports",
+    "date": "2026-10-12",
+    "short": "市民ランナー向けの大会を初めて開催",
+    "sourceId": "c16-s3"
+   }
+  ],
+  "siteSourceId": "c16-s1"
+ },
+ {
+  "id": "c17",
+  "name": "ゆうき食品株式会社（架空）",
+  "industry": "食品",
+  "size": "50-300",
+  "region": "北海道",
+  "summary": "北海道の素材を使った惣菜とスープの製造。",
+  "department": "販売促進課",
+  "channels": [
+   "email",
+   "form"
+  ],
+  "status": "new",
+  "domain": "yuki-foods.example",
+  "events": [
+   {
+    "type": "region",
+    "date": "2026-08-25",
+    "short": "地元の少年サッカー大会に協賛",
+    "sourceId": "c17-s2"
+   }
+  ],
+  "siteSourceId": "c17-s1"
+ },
+ {
+  "id": "c18",
+  "name": "あさひスポーツ用品（架空）",
+  "industry": "スポーツ用品",
+  "size": "300-1000",
+  "region": "大阪",
+  "summary": "ランニングシューズとトレーニングウェアの企画・販売。",
+  "department": "マーケティング部",
+  "channels": [
+   "email"
+  ],
+  "status": "new",
+  "domain": "asahi-sports.example",
+  "events": [
+   {
+    "type": "launch",
+    "date": "2026-08-20",
+    "short": "厚底のランニングシューズを発売",
+    "sourceId": "c18-s2"
+   }
+  ],
+  "siteSourceId": "c18-s1"
+ },
+ {
+  "id": "c19",
+  "name": "みどり証券株式会社（架空）",
+  "industry": "金融",
+  "size": "300-1000",
+  "region": "東京",
+  "summary": "個人向けの証券会社。",
+  "department": "マーケティング部",
+  "channels": [
+   "email"
+  ],
+  "status": "new",
+  "domain": "midori-sec.example",
+  "events": [
+   {
+    "type": "youth",
+    "date": "2026-09-01",
+    "short": "20代向けの投資の講座を開始",
+    "sourceId": "c19-s2"
+   }
+  ],
+  "siteSourceId": "c19-s1"
+ },
+ {
+  "id": "c20",
+  "name": "ボディラボ株式会社（架空）",
+  "industry": "フィットネス",
+  "size": "10-50",
+  "region": "愛知",
+  "summary": "パーソナルトレーニングのジムを名古屋で6店舗運営。",
+  "department": "代表室",
+  "channels": [
+   "email",
+   "form",
+   "sns"
+  ],
+  "status": "new",
+  "domain": "bodylab.example",
+  "events": [
+   {
+    "type": "store",
+    "date": "2026-09-28",
+    "short": "名古屋駅前に新店舗を開業",
+    "sourceId": "c20-s2"
+   }
+  ],
+  "siteSourceId": "c20-s1"
+ },
+ {
+  "id": "c21",
+  "name": "ことぶき精機株式会社（架空）",
+  "industry": "製造",
+  "size": "50-300",
+  "region": "愛知",
+  "summary": "自動車部品の精密加工を行う製造業。社員は約180人。",
+  "department": "総務部 採用担当",
+  "channels": [
+   "email",
+   "form"
+  ],
+  "status": "new",
+  "domain": "kotobuki-seiki.example",
+  "events": [
+   {
+    "type": "hiring",
+    "date": "2026-09-15",
+    "short": "2027年度の新卒採用を前年の2倍の20人に拡大",
+    "sourceId": "c21-s2"
+   },
+   {
+    "type": "office",
+    "date": "2026-06-01",
+    "short": "第二工場を稼働",
+    "sourceId": "c21-s3"
+   }
+  ],
+  "siteSourceId": "c21-s1"
+ },
+ {
+  "id": "c22",
+  "name": "そよかぜ介護サービス株式会社（架空）",
+  "industry": "介護",
+  "size": "300-1000",
+  "region": "福岡",
+  "summary": "福岡県内で介護施設とデイサービスを24か所運営。",
+  "department": "人事部",
+  "channels": [
+   "email",
+   "form"
+  ],
+  "status": "new",
+  "domain": "soyokaze-care.example",
+  "events": [
+   {
+    "type": "hiring",
+    "date": "2026-10-01",
+    "short": "介護職の中途採用を強化",
+    "sourceId": "c22-s2"
+   },
+   {
+    "type": "anniversary",
+    "date": "2026-04-01",
+    "short": "創業20周年を記念して施設の見学会を開始",
+    "sourceId": "c22-s3"
+   }
+  ],
+  "siteSourceId": "c22-s1"
+ },
+ {
+  "id": "c23",
+  "name": "テックリンク株式会社（架空）",
+  "industry": "IT",
+  "size": "50-300",
+  "region": "東京",
+  "summary": "中小企業向けの業務アプリを開発するIT企業。",
+  "department": "人事部",
+  "channels": [
+   "email",
+   "form",
+   "sns"
+  ],
+  "status": "new",
+  "domain": "techlink.example",
+  "events": [
+   {
+    "type": "hiring",
+    "date": "2026-09-01",
+    "short": "エンジニアの採用を強化",
+    "sourceId": "c23-s2"
+   },
+   {
+    "type": "launch",
+    "date": "2026-07-15",
+    "short": "飲食店向けの予約アプリを公開",
+    "sourceId": "c23-s3"
+   }
+  ],
+  "siteSourceId": "c23-s1"
+ },
+ {
+  "id": "c24",
+  "name": "ひまわり建設株式会社（架空）",
+  "industry": "建設",
+  "size": "300-1000",
+  "region": "大阪",
+  "summary": "住宅と商業施設の建設。",
+  "department": "総務部",
+  "channels": [
+   "email"
+  ],
+  "status": "client",
+  "domain": "himawari-kensetsu.example",
+  "events": [
+   {
+    "type": "hiring",
+    "date": "2026-08-01",
+    "short": "施工管理の採用を強化",
+    "sourceId": "c24-s2"
+   }
+  ],
+  "siteSourceId": "c24-s1"
+ },
+ {
+  "id": "c25",
+  "name": "つばさ物流株式会社（架空）",
+  "industry": "物流",
+  "size": "300-1000",
+  "region": "埼玉",
+  "summary": "首都圏の配送と倉庫の運営。",
+  "department": "人事部",
+  "channels": [
+   "email"
+  ],
+  "status": "declined",
+  "domain": "tsubasa-logi.example",
+  "events": [
+   {
+    "type": "hiring",
+    "date": "2026-07-01",
+    "short": "ドライバーの採用を強化",
+    "sourceId": "c25-s2"
+   }
+  ],
+  "siteSourceId": "c25-s1"
+ },
+ {
+  "id": "c26",
+  "name": "まるやま工業株式会社（架空）",
+  "industry": "製造",
+  "size": "50-300",
+  "region": "静岡",
+  "summary": "産業用ポンプの設計・製造。",
+  "department": "管理部",
+  "channels": [
+   "email",
+   "form"
+  ],
+  "status": "new",
+  "domain": "maruyama-kogyo.example",
+  "events": [
+   {
+    "type": "anniversary",
+    "date": "2026-11-15",
+    "short": "創業60周年を迎える",
+    "sourceId": "c26-s2"
+   },
+   {
+    "type": "hiring",
+    "date": "2026-09-20",
+    "short": "高卒の採用を再開",
+    "sourceId": "c26-s3"
+   }
+  ],
+  "siteSourceId": "c26-s1"
+ },
+ {
+  "id": "c27",
+  "name": "あおぞら不動産株式会社（架空）",
+  "industry": "不動産",
+  "size": "50-300",
+  "region": "神奈川",
+  "summary": "賃貸と売買の仲介。横浜に8店舗。",
+  "department": "営業企画部",
+  "channels": [
+   "email",
+   "form",
+   "sns"
+  ],
+  "status": "new",
+  "domain": "aozora-fudosan.example",
+  "events": [
+   {
+    "type": "store",
+    "date": "2026-10-01",
+    "short": "川崎に新店舗を開業",
+    "sourceId": "c27-s2"
+   },
+   {
+    "type": "hiring",
+    "date": "2026-08-10",
+    "short": "営業職の採用を開始",
+    "sourceId": "c27-s3"
+   }
+  ],
+  "siteSourceId": "c27-s1"
+ },
+ {
+  "id": "c28",
+  "name": "ほくと運輸株式会社（架空）",
+  "industry": "物流",
+  "size": "300-1000",
+  "region": "宮城",
+  "summary": "東北の幹線輸送と倉庫。",
+  "department": "人事部",
+  "channels": [
+   "email",
+   "form"
+  ],
+  "status": "new",
+  "domain": "hokuto-unyu.example",
+  "events": [
+   {
+    "type": "hiring",
+    "date": "2026-09-05",
+    "short": "女性ドライバーの採用を強化",
+    "sourceId": "c28-s2"
+   }
+  ],
+  "siteSourceId": "c28-s1"
+ },
+ {
+  "id": "c29",
+  "name": "クラウドワン株式会社（架空）",
+  "industry": "IT",
+  "size": "10-50",
+  "region": "福岡",
+  "summary": "クラウドの導入支援。",
+  "department": "代表室",
+  "channels": [
+   "email",
+   "form"
+  ],
+  "status": "new",
+  "domain": "cloudone.example",
+  "events": [
+   {
+    "type": "office",
+    "date": "2026-08-01",
+    "short": "東京に営業所を開設",
+    "sourceId": "c29-s2"
+   },
+   {
+    "type": "hiring",
+    "date": "2026-10-05",
+    "short": "東京の営業所で営業職を募集",
+    "sourceId": "c29-s3"
+   }
+  ],
+  "siteSourceId": "c29-s1"
+ },
+ {
+  "id": "c30",
+  "name": "やまと鉄工株式会社（架空）",
+  "industry": "製造",
+  "size": "10-50",
+  "region": "広島",
+  "summary": "船舶部品の溶接と加工。",
+  "department": "総務部",
+  "channels": [
+   "email"
+  ],
+  "status": "new",
+  "domain": "yamato-tekko.example",
+  "events": [
+   {
+    "type": "hiring",
+    "date": "2026-06-15",
+    "short": "若手の溶接技能者を募集",
+    "sourceId": "c30-s2"
+   }
+  ],
+  "siteSourceId": "c30-s1"
+ },
+ {
+  "id": "c31",
+  "name": "はなみずき介護株式会社（架空）",
+  "industry": "介護",
+  "size": "50-300",
+  "region": "愛知",
+  "summary": "訪問介護とグループホームの運営。",
+  "department": "人事部",
+  "channels": [
+   "email",
+   "form"
+  ],
+  "status": "new",
+  "domain": "hanamizuki-care.example",
+  "events": [
+   {
+    "type": "hiring",
+    "date": "2026-10-10",
+    "short": "訪問介護のスタッフを募集",
+    "sourceId": "c31-s2"
+   }
+  ],
+  "siteSourceId": "c31-s1"
+ },
+ {
+  "id": "c32",
+  "name": "ネクストシステム株式会社（架空）",
+  "industry": "IT",
+  "size": "300-1000",
+  "region": "大阪",
+  "summary": "金融機関向けのシステム開発。",
+  "department": "人事部",
+  "channels": [
+   "email",
+   "form"
+  ],
+  "status": "new",
+  "domain": "nextsystem.example",
+  "events": [
+   {
+    "type": "hiring",
+    "date": "2026-07-01",
+    "short": "新卒採用の説明会を動画で開始",
+    "sourceId": "c32-s2"
+   },
+   {
+    "type": "anniversary",
+    "date": "2026-10-01",
+    "short": "創業30周年を迎えた",
+    "sourceId": "c32-s3"
+   }
+  ],
+  "siteSourceId": "c32-s1"
+ },
+ {
+  "id": "c33",
+  "name": "いずみ建設株式会社（架空）",
+  "industry": "建設",
+  "size": "50-300",
+  "region": "北海道",
+  "summary": "道路と橋の工事。",
+  "department": "総務部",
+  "channels": [
+   "email",
+   "form"
+  ],
+  "status": "new",
+  "domain": "izumi-kensetsu.example",
+  "events": [
+   {
+    "type": "hiring",
+    "date": "2026-09-01",
+    "short": "施工管理の若手を募集",
+    "sourceId": "c33-s2"
+   }
+  ],
+  "siteSourceId": "c33-s1"
+ },
+ {
+  "id": "c34",
+  "name": "フューチャーホーム株式会社（架空）",
+  "industry": "不動産",
+  "size": "10-50",
+  "region": "東京",
+  "summary": "リノベーション住宅の販売。",
+  "department": "広報",
+  "channels": [
+   "email",
+   "form",
+   "sns"
+  ],
+  "status": "new",
+  "domain": "futurehome.example",
+  "events": [
+   {
+    "type": "launch",
+    "date": "2026-09-12",
+    "short": "リノベーションの新しいプランを発表",
+    "sourceId": "c34-s2"
+   }
+  ],
+  "siteSourceId": "c34-s1"
+ },
+ {
+  "id": "c35",
+  "name": "さかえ化学株式会社（架空）",
+  "industry": "製造",
+  "size": "300-1000",
+  "region": "神奈川",
+  "summary": "塗料と接着剤の製造。",
+  "department": "人事部",
+  "channels": [
+   "email"
+  ],
+  "status": "new",
+  "domain": "sakae-chem.example",
+  "events": [
+   {
+    "type": "hiring",
+    "date": "2026-08-20",
+    "short": "研究職の中途採用を開始",
+    "sourceId": "c35-s2"
+   }
+  ],
+  "siteSourceId": "c35-s1"
+ },
+ {
+  "id": "c36",
+  "name": "ひだまりケア株式会社（架空）",
+  "industry": "介護",
+  "size": "10-50",
+  "region": "京都",
+  "summary": "小規模のデイサービスを3か所運営。",
+  "department": "代表",
+  "channels": [
+   "email",
+   "form"
+  ],
+  "status": "new",
+  "domain": "hidamari-care.example",
+  "events": [
+   {
+    "type": "office",
+    "date": "2026-10-01",
+    "short": "4か所目のデイサービスを開設",
+    "sourceId": "c36-s2"
+   }
+  ],
+  "siteSourceId": "c36-s1"
+ },
+ {
+  "id": "c37",
+  "name": "スカイロジ株式会社（架空）",
+  "industry": "物流",
+  "size": "50-300",
+  "region": "大阪",
+  "summary": "関西の宅配と倉庫。",
+  "department": "人事部",
+  "channels": [
+   "email",
+   "form"
+  ],
+  "status": "new",
+  "domain": "skylogi.example",
+  "events": [
+   {
+    "type": "office",
+    "date": "2026-07-01",
+    "short": "新しい物流センターを稼働",
+    "sourceId": "c37-s2"
+   },
+   {
+    "type": "hiring",
+    "date": "2026-07-10",
+    "short": "倉庫のスタッフを50人募集",
+    "sourceId": "c37-s3"
+   }
+  ],
+  "siteSourceId": "c37-s1"
+ },
+ {
+  "id": "c38",
+  "name": "ことぶき精機（架空）",
+  "industry": "製造",
+  "size": "50-300",
+  "region": "愛知",
+  "summary": "自動車部品の精密加工。",
+  "department": "総務部 採用担当",
+  "channels": [
+   "email"
+  ],
+  "status": "new",
+  "domain": "kotobuki-seiki.example",
+  "events": [
+   {
+    "type": "hiring",
+    "date": "2026-09-15",
+    "short": "新卒採用を拡大",
+    "sourceId": "c38-s2"
+   }
+  ],
+  "siteSourceId": "c38-s1"
+ },
+ {
+  "id": "c39",
+  "name": "デジタルブリッジ株式会社（架空）",
+  "industry": "IT",
+  "size": "10-50",
+  "region": "宮城",
+  "summary": "自治体向けのウェブサイトの制作。",
+  "department": "代表室",
+  "channels": [
+   "email",
+   "form"
+  ],
+  "status": "new",
+  "domain": "digitalbridge.example",
+  "events": [
+   {
+    "type": "anniversary",
+    "date": "2026-08-01",
+    "short": "創業10周年を迎えた",
+    "sourceId": "c39-s2"
+   }
+  ],
+  "siteSourceId": "c39-s1"
+ },
+ {
+  "id": "c40",
+  "name": "みずほし工務店（架空）",
+  "industry": "建設",
+  "size": "1-10",
+  "region": "静岡",
+  "summary": "注文住宅の設計と施工。",
+  "department": "代表",
+  "channels": [
+   "email"
+  ],
+  "status": "new",
+  "domain": "mizuhoshi-koumuten.example",
+  "events": [
+   {
+    "type": "launch",
+    "date": "2026-05-01",
+    "short": "平屋の新しいモデルハウスを公開",
+    "sourceId": "c40-s2"
+   }
+  ],
+  "siteSourceId": "c40-s1"
+ },
+ {
+  "id": "c41",
+  "name": "カフェ こもれび（架空）",
+  "industry": "飲食",
+  "size": "1-10",
+  "region": "京都",
+  "summary": "京都の住宅街にある、自家焙煎のコーヒーと焼き菓子のカフェ。",
+  "department": "店主",
+  "channels": [
+   "email",
+   "form",
+   "sns"
+  ],
+  "status": "new",
+  "domain": "komorebi-cafe.example",
+  "events": [
+   {
+    "type": "sns",
+    "date": "2026-09-20",
+    "short": "公式のインスタグラムを開設",
+    "sourceId": "c41-s2"
+   },
+   {
+    "type": "launch",
+    "date": "2026-10-01",
+    "short": "秋限定のモンブランの提供を開始",
+    "sourceId": "c41-s3"
+   }
+  ],
+  "siteSourceId": "c41-s1"
+ },
+ {
+  "id": "c42",
+  "name": "ヘアサロン ルミエ（架空）",
+  "industry": "美容",
+  "size": "10-50",
+  "region": "福岡",
+  "summary": "福岡市内に3店舗を持つヘアサロン。カラーとヘッドスパが人気。",
+  "department": "マネージャー",
+  "channels": [
+   "email",
+   "form",
+   "sns"
+  ],
+  "status": "new",
+  "domain": "lumier-hair.example",
+  "events": [
+   {
+    "type": "store",
+    "date": "2026-10-10",
+    "short": "天神に3店舗目を開業",
+    "sourceId": "c42-s2"
+   },
+   {
+    "type": "sns",
+    "date": "2026-08-01",
+    "short": "スタッフごとのSNSアカウントでの発信を開始",
+    "sourceId": "c42-s3"
+   }
+  ],
+  "siteSourceId": "c42-s1"
+ },
+ {
+  "id": "c43",
+  "name": "ゆのか旅館（架空）",
+  "industry": "宿泊",
+  "size": "10-50",
+  "region": "広島",
+  "summary": "瀬戸内の海が見える、客室12室の温泉旅館。",
+  "department": "女将",
+  "channels": [
+   "email",
+   "form",
+   "sns"
+  ],
+  "status": "new",
+  "domain": "yunoka-ryokan.example",
+  "events": [
+   {
+    "type": "renewal",
+    "date": "2026-09-01",
+    "short": "露天風呂つきの客室にリニューアル",
+    "sourceId": "c43-s2"
+   },
+   {
+    "type": "sns",
+    "date": "2026-10-05",
+    "short": "海外のお客様向けに英語での発信を開始",
+    "sourceId": "c43-s3"
+   }
+  ],
+  "siteSourceId": "c43-s1"
+ },
+ {
+  "id": "c44",
+  "name": "パティスリー ミエル（架空）",
+  "industry": "菓子",
+  "size": "1-10",
+  "region": "東京",
+  "summary": "洋菓子店。",
+  "department": "店主",
+  "channels": [
+   "email",
+   "sns"
+  ],
+  "status": "unsubscribed",
+  "domain": "patisserie-miel.example",
+  "events": [
+   {
+    "type": "store",
+    "date": "2026-06-01",
+    "short": "2店舗目を開業",
+    "sourceId": "c44-s2"
+   }
+  ],
+  "siteSourceId": "c44-s1"
+ },
+ {
+  "id": "c45",
+  "name": "セレクトショップ ノード（架空）",
+  "industry": "アパレル",
+  "size": "10-50",
+  "region": "東京",
+  "summary": "古着と国内ブランドのセレクトショップ。",
+  "department": "プレス",
+  "channels": [
+   "email",
+   "form",
+   "sns"
+  ],
+  "status": "new",
+  "domain": "node-select.example",
+  "events": [
+   {
+    "type": "launch",
+    "date": "2026-09-15",
+    "short": "オリジナルブランドを発表",
+    "sourceId": "c45-s2"
+   },
+   {
+    "type": "sns",
+    "date": "2026-09-15",
+    "short": "オリジナルブランドの公式アカウントを開設",
+    "sourceId": "c45-s3"
+   }
+  ],
+  "siteSourceId": "c45-s1"
+ },
+ {
+  "id": "c46",
+  "name": "ラーメン 一歩（架空）",
+  "industry": "飲食",
+  "size": "10-50",
+  "region": "北海道",
+  "summary": "札幌のラーメン店。3店舗。",
+  "department": "店長",
+  "channels": [
+   "email",
+   "sns"
+  ],
+  "status": "new",
+  "domain": "ramen-ippo.example",
+  "events": [
+   {
+    "type": "store",
+    "date": "2026-10-15",
+    "short": "新千歳に4店舗目を開業",
+    "sourceId": "c46-s2"
+   }
+  ],
+  "siteSourceId": "c46-s1"
+ },
+ {
+  "id": "c47",
+  "name": "さくらデンタルクリニック（架空）",
+  "industry": "医療",
+  "size": "10-50",
+  "region": "大阪",
+  "summary": "一般歯科と矯正歯科。",
+  "department": "事務長",
+  "channels": [
+   "email",
+   "form"
+  ],
+  "status": "new",
+  "domain": "sakura-dental.example",
+  "events": [
+   {
+    "type": "renewal",
+    "date": "2026-08-01",
+    "short": "院内を全面改装",
+    "sourceId": "c47-s2"
+   },
+   {
+    "type": "sns",
+    "date": "2026-09-10",
+    "short": "公式のSNSを開設",
+    "sourceId": "c47-s3"
+   }
+  ],
+  "siteSourceId": "c47-s1"
+ },
+ {
+  "id": "c48",
+  "name": "雑貨店 てとて（架空）",
+  "industry": "小売",
+  "size": "1-10",
+  "region": "宮城",
+  "summary": "手しごとの雑貨店。",
+  "department": "店主",
+  "channels": [
+   "email",
+   "form",
+   "sns"
+  ],
+  "status": "new",
+  "domain": "tetote-zakka.example",
+  "events": [
+   {
+    "type": "sns",
+    "date": "2026-07-01",
+    "short": "オンラインショップを開設",
+    "sourceId": "c48-s2"
+   }
+  ],
+  "siteSourceId": "c48-s1"
+ },
+ {
+  "id": "c49",
+  "name": "焼肉 たけのこ（架空）",
+  "industry": "飲食",
+  "size": "10-50",
+  "region": "福岡",
+  "summary": "焼肉店。2店舗。",
+  "department": "店長",
+  "channels": [
+   "email",
+   "sns"
+  ],
+  "status": "new",
+  "domain": "yakiniku-takenoko.example",
+  "events": [
+   {
+    "type": "launch",
+    "date": "2026-09-01",
+    "short": "ランチの提供を開始",
+    "sourceId": "c49-s2"
+   }
+  ],
+  "siteSourceId": "c49-s1"
+ },
+ {
+  "id": "c50",
+  "name": "まつげサロン リリー（架空）",
+  "industry": "美容",
+  "size": "1-10",
+  "region": "愛知",
+  "summary": "まつげのサロン。",
+  "department": "オーナー",
+  "channels": [
+   "email",
+   "sns"
+  ],
+  "status": "new",
+  "domain": "lily-lash.example",
+  "events": [
+   {
+    "type": "store",
+    "date": "2026-09-05",
+    "short": "栄に移転",
+    "sourceId": "c50-s2"
+   },
+   {
+    "type": "sns",
+    "date": "2026-09-05",
+    "short": "予約の受付をSNSで開始",
+    "sourceId": "c50-s3"
+   }
+  ],
+  "siteSourceId": "c50-s1"
+ },
+ {
+  "id": "c51",
+  "name": "ホテル ベイサイド（架空）",
+  "industry": "宿泊",
+  "size": "50-300",
+  "region": "神奈川",
+  "summary": "港の見えるホテル。客室80室。",
+  "department": "営業部",
+  "channels": [
+   "email",
+   "form",
+   "sns"
+  ],
+  "status": "new",
+  "domain": "hotel-bayside.example",
+  "events": [
+   {
+    "type": "renewal",
+    "date": "2026-07-15",
+    "short": "レストランをリニューアル",
+    "sourceId": "c51-s2"
+   }
+  ],
+  "siteSourceId": "c51-s1"
+ },
+ {
+  "id": "c52",
+  "name": "和菓子 つきみ堂（架空）",
+  "industry": "菓子",
+  "size": "10-50",
+  "region": "京都",
+  "summary": "創業80年の和菓子店。",
+  "department": "広報",
+  "channels": [
+   "email",
+   "form",
+   "sns"
+  ],
+  "status": "new",
+  "domain": "tsukimido.example",
+  "events": [
+   {
+    "type": "launch",
+    "date": "2026-09-10",
+    "short": "季節限定の栗の和菓子を発売",
+    "sourceId": "c52-s2"
+   },
+   {
+    "type": "sns",
+    "date": "2026-10-01",
+    "short": "公式のインスタグラムを開設",
+    "sourceId": "c52-s3"
+   }
+  ],
+  "siteSourceId": "c52-s1"
+ },
+ {
+  "id": "c53",
+  "name": "スポーツバー ゴール（架空）",
+  "industry": "飲食",
+  "size": "1-10",
+  "region": "大阪",
+  "summary": "スポーツ観戦のできるバー。",
+  "department": "店長",
+  "channels": [
+   "email",
+   "sns"
+  ],
+  "status": "new",
+  "domain": "goal-bar.example",
+  "events": [
+   {
+    "type": "store",
+    "date": "2026-04-01",
+    "short": "難波に開業",
+    "sourceId": "c53-s2"
+   }
+  ],
+  "siteSourceId": "c53-s1"
+ },
+ {
+  "id": "c54",
+  "name": "ネイルサロン ポラリス（架空）",
+  "industry": "美容",
+  "size": "1-10",
+  "region": "東京",
+  "summary": "ネイルサロン。",
+  "department": "オーナー",
+  "channels": [
+   "email",
+   "sns"
+  ],
+  "status": "new",
+  "domain": "polaris-nail.example",
+  "events": [
+   {
+    "type": "sns",
+    "date": "2026-05-01",
+    "short": "公式のSNSを開設",
+    "sourceId": "c54-s2"
+   }
+  ],
+  "siteSourceId": "c54-s1"
+ },
+ {
+  "id": "c55",
+  "name": "ベーカリー こむぎ（架空）",
+  "industry": "飲食",
+  "size": "1-10",
+  "region": "北海道",
+  "summary": "パン屋。",
+  "department": "店主",
+  "channels": [
+   "email",
+   "form",
+   "sns"
+  ],
+  "status": "new",
+  "domain": "bakery-komugi.example",
+  "events": [
+   {
+    "type": "store",
+    "date": "2026-10-03",
+    "short": "2店舗目を開業",
+    "sourceId": "c55-s2"
+   }
+  ],
+  "siteSourceId": "c55-s1"
+ },
+ {
+  "id": "c56",
+  "name": "まちのクリニック あおい（架空）",
+  "industry": "医療",
+  "size": "10-50",
+  "region": "静岡",
+  "summary": "内科と小児科。",
+  "department": "事務長",
+  "channels": [
+   "email",
+   "form"
+  ],
+  "status": "new",
+  "domain": "clinic-aoi.example",
+  "events": [
+   {
+    "type": "renewal",
+    "date": "2026-06-01",
+    "short": "オンライン診療を開始",
+    "sourceId": "c56-s2"
+   }
+  ],
+  "siteSourceId": "c56-s1"
+ },
+ {
+  "id": "c57",
+  "name": "あけぼの印刷株式会社（架空）",
+  "industry": "印刷",
+  "size": "50-300",
+  "region": "東京",
+  "summary": "商業印刷。",
+  "department": "営業部",
+  "channels": [
+   "email"
+  ],
+  "status": "new",
+  "domain": "akebono-print.example",
+  "events": [
+   {
+    "type": "office",
+    "date": "2026-05-01",
+    "short": "印刷機を更新",
+    "sourceId": "c57-s2"
+   }
+  ],
+  "siteSourceId": "c57-s1"
+ },
+ {
+  "id": "c58",
+  "name": "みらい会計事務所（架空）",
+  "industry": "士業",
+  "size": "10-50",
+  "region": "大阪",
+  "summary": "会計と税務の事務所。",
+  "department": "所長",
+  "channels": [
+   "email"
+  ],
+  "status": "new",
+  "domain": "mirai-kaikei.example",
+  "events": [
+   {
+    "type": "office",
+    "date": "2026-04-01",
+    "short": "事務所を移転",
+    "sourceId": "c58-s2"
+   }
+  ],
+  "siteSourceId": "c58-s1"
+ },
+ {
+  "id": "c59",
+  "name": "たかはし農園（架空）",
+  "industry": "農業",
+  "size": "1-10",
+  "region": "静岡",
+  "summary": "お茶の農園。",
+  "department": "代表",
+  "channels": [
+   "email"
+  ],
+  "status": "new",
+  "domain": "takahashi-farm.example",
+  "events": [
+   {
+    "type": "launch",
+    "date": "2026-05-10",
+    "short": "新茶の販売を開始",
+    "sourceId": "c59-s2"
+   }
+  ],
+  "siteSourceId": "c59-s1"
+ },
+ {
+  "id": "c60",
+  "name": "ひろせ法律事務所（架空）",
+  "industry": "士業",
+  "size": "1-10",
+  "region": "東京",
+  "summary": "企業法務の法律事務所。",
+  "department": "事務局",
+  "channels": [
+   "email"
+  ],
+  "status": "new",
+  "domain": "hirose-law.example",
+  "events": [
+   {
+    "type": "office",
+    "date": "2026-03-01",
+    "short": "事務所を開設",
+    "sourceId": "c60-s2"
+   }
+  ],
+  "siteSourceId": "c60-s1"
+ }
+]

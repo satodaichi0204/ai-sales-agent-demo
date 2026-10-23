@@ -1,0 +1,15 @@
+# 依頼者の情報を含むため、GitHubに上げない
+DEMO_SPEC.md
+返信の材料.md
+output/
+*api*key*
+
+node_modules/
+.next/
+out/
+next-env.d.ts
+*.tsbuildinfo
+.env*
+.vercel
+test-results/
+playwright-report/

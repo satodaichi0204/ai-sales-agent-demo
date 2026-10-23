@@ -1,0 +1,1298 @@
+[
+ {
+  "id": "c01-s1",
+  "companyId": "c01",
+  "kind": "site",
+  "title": "みなと飲料株式会社（架空）　会社のサイト：会社概要",
+  "url": "https://www.minato-drink.example/company",
+  "date": "2026-10-01",
+  "text": "清涼飲料と機能性飲料を製造・販売する飲料メーカー。主力は果汁炭酸とスポーツドリンク。お問い合わせの窓口は広報・宣伝部。"
+ },
+ {
+  "id": "c01-s2",
+  "companyId": "c01",
+  "kind": "news",
+  "title": "みなと飲料株式会社（架空）　ニュースリリース",
+  "url": "https://www.minato-drink.example/news/20260901",
+  "date": "2026-09-01",
+  "text": "みなと飲料（架空）は2026年9月1日、20代向けの炭酸飲料『スパークリングゆず（架空）』を全国で発売した。発売にあわせ、SNSでの若い世代に向けた発信を強めるとしている。"
+ },
+ {
+  "id": "c01-s3",
+  "companyId": "c01",
+  "kind": "news",
+  "title": "みなと飲料株式会社（架空）　ニュースリリース",
+  "url": "https://www.minato-drink.example/news/20260712",
+  "date": "2026-07-12",
+  "text": "みなと飲料（架空）は2026年7月、地元の市民マラソン大会に給水所の飲料を提供し、協賛した。今後も地域のスポーツを応援していくとしている。"
+ },
+ {
+  "id": "c02-s1",
+  "companyId": "c02",
+  "kind": "site",
+  "title": "あさひスポーツ用品株式会社（架空）　会社のサイト：会社概要",
+  "url": "https://www.asahi-sports.example/company",
+  "date": "2026-10-01",
+  "text": "ランニングシューズとトレーニングウェアの企画・販売。直営店を関西に12店舗持つ。お問い合わせの窓口はマーケティング部。"
+ },
+ {
+  "id": "c02-s2",
+  "companyId": "c02",
+  "kind": "news",
+  "title": "あさひスポーツ用品株式会社（架空）　ニュースリリース",
+  "url": "https://www.asahi-sports.example/news/20260820",
+  "date": "2026-08-20",
+  "text": "あさひスポーツ用品（架空）は2026年8月20日、厚底のランニングシューズ『ASAHI RUN 3（架空）』を発売した。市民ランナー向けの試し履きの会を各地で開くとしている。"
+ },
+ {
+  "id": "c02-s3",
+  "companyId": "c02",
+  "kind": "news",
+  "title": "あさひスポーツ用品株式会社（架空）　ニュースリリース",
+  "url": "https://www.asahi-sports.example/news/20261001",
+  "date": "2026-10-01",
+  "text": "あさひスポーツ用品（架空）は2026年10月1日、高校生・大学生向けのアンバサダーの募集を開始した。若い世代のランナーとの接点を増やすのがねらい。"
+ },
+ {
+  "id": "c03-s1",
+  "companyId": "c03",
+  "kind": "site",
+  "title": "ひかり生命保険株式会社（架空）　会社のサイト：会社概要",
+  "url": "https://www.hikari-life.example/company",
+  "date": "2026-10-01",
+  "text": "個人向けの生命保険と医療保険を扱う保険会社。健康増進の取り組みに力を入れている。お問い合わせの窓口はブランド戦略部。"
+ },
+ {
+  "id": "c03-s2",
+  "companyId": "c03",
+  "kind": "news",
+  "title": "ひかり生命保険株式会社（架空）　ニュースリリース",
+  "url": "https://www.hikari-life.example/news/20261101",
+  "date": "2026-11-01",
+  "text": "ひかり生命保険（架空）は2026年10月、11月に創業50周年を迎えるにあたり、記念事業として「からだを動かす50のプロジェクト」を実施すると発表した。"
+ },
+ {
+  "id": "c03-s3",
+  "companyId": "c03",
+  "kind": "news",
+  "title": "ひかり生命保険株式会社（架空）　ニュースリリース",
+  "url": "https://www.hikari-life.example/news/20260605",
+  "date": "2026-06-05",
+  "text": "ひかり生命保険（架空）は2026年6月、健康づくりの地域イベントを全国10か所で開始した。運動教室とウォーキング大会を組み合わせた内容。"
+ },
+ {
+  "id": "c04-s1",
+  "companyId": "c04",
+  "kind": "site",
+  "title": "北星信用金庫（架空）　会社のサイト：会社概要",
+  "url": "https://www.hokusei-shinkin.example/company",
+  "date": "2026-10-01",
+  "text": "道央を中心に28店舗を持つ信用金庫。地域の中小企業と個人のお客様を支えている。お問い合わせの窓口は地域振興部。"
+ },
+ {
+  "id": "c04-s2",
+  "companyId": "c04",
+  "kind": "news",
+  "title": "北星信用金庫（架空）　ニュースリリース",
+  "url": "https://www.hokusei-shinkin.example/news/20260910",
+  "date": "2026-09-10",
+  "text": "北星信用金庫（架空）は2026年9月10日、地元の小中学生のスポーツ活動を応援する「北星ジュニアスポーツ基金（架空）」を設立した。遠征費や用具の購入を支援する。"
+ },
+ {
+  "id": "c04-s3",
+  "companyId": "c04",
+  "kind": "news",
+  "title": "北星信用金庫（架空）　ニュースリリース",
+  "url": "https://www.hokusei-shinkin.example/news/20260701",
+  "date": "2026-07-01",
+  "text": "北星信用金庫（架空）は2026年7月、20代から30代の利用者に向けたスマートフォンのアプリを公開した。"
+ },
+ {
+  "id": "c05-s1",
+  "companyId": "c05",
+  "kind": "site",
+  "title": "さくら食品株式会社（架空）　会社のサイト：会社概要",
+  "url": "https://www.sakura-foods.example/company",
+  "date": "2026-10-01",
+  "text": "冷凍食品と調味料のメーカー。お問い合わせの窓口は宣伝部。"
+ },
+ {
+  "id": "c05-s2",
+  "companyId": "c05",
+  "kind": "news",
+  "title": "さくら食品株式会社（架空）　ニュースリリース",
+  "url": "https://www.sakura-foods.example/news/20260801",
+  "date": "2026-08-01",
+  "text": "さくら食品（架空）は2026年8月、たんぱく質を強化した冷凍弁当のシリーズを発売した。"
+ },
+ {
+  "id": "c06-s1",
+  "companyId": "c06",
+  "kind": "site",
+  "title": "かぜのね製菓株式会社（架空）　会社のサイト：会社概要",
+  "url": "https://www.kazenone.example/company",
+  "date": "2026-10-01",
+  "text": "焼き菓子とスナックの製造・販売。お問い合わせの窓口は販売促進部。"
+ },
+ {
+  "id": "c06-s2",
+  "companyId": "c06",
+  "kind": "news",
+  "title": "かぜのね製菓株式会社（架空）　ニュースリリース",
+  "url": "https://www.kazenone.example/news/20260501",
+  "date": "2026-05-01",
+  "text": "かぜのね製菓（架空）は2026年5月、創業40周年の記念商品を発売した。"
+ },
+ {
+  "id": "c07-s1",
+  "companyId": "c07",
+  "kind": "site",
+  "title": "ブルーライン保険株式会社（架空）　会社のサイト：会社概要",
+  "url": "https://www.blueline-ins.example/company",
+  "date": "2026-10-01",
+  "text": "損害保険とスポーツ保険を扱う保険会社。お問い合わせの窓口は広報部。"
+ },
+ {
+  "id": "c07-s2",
+  "companyId": "c07",
+  "kind": "news",
+  "title": "ブルーライン保険株式会社（架空）　ニュースリリース",
+  "url": "https://www.blueline-ins.example/news/20260601",
+  "date": "2026-06-01",
+  "text": "ブルーライン保険（架空）は2026年6月、部活動向けのスポーツ保険の新しいプランを開始した。"
+ },
+ {
+  "id": "c08-s1",
+  "companyId": "c08",
+  "kind": "site",
+  "title": "やまびこ乳業株式会社（架空）　会社のサイト：会社概要",
+  "url": "https://www.yamabiko-milk.example/company",
+  "date": "2026-10-01",
+  "text": "牛乳とヨーグルトの製造・販売。東北の酪農家と提携している。お問い合わせの窓口はマーケティング部。"
+ },
+ {
+  "id": "c08-s2",
+  "companyId": "c08",
+  "kind": "news",
+  "title": "やまびこ乳業株式会社（架空）　ニュースリリース",
+  "url": "https://www.yamabiko-milk.example/news/20260925",
+  "date": "2026-09-25",
+  "text": "やまびこ乳業（架空）は2026年9月25日、運動後に食べることを想定した高たんぱくのヨーグルトを東北と関東で発売した。"
+ },
+ {
+  "id": "c08-s3",
+  "companyId": "c08",
+  "kind": "news",
+  "title": "やまびこ乳業株式会社（架空）　ニュースリリース",
+  "url": "https://www.yamabiko-milk.example/news/20260520",
+  "date": "2026-05-20",
+  "text": "やまびこ乳業（架空）は2026年5月、地元のプロバスケットボールチームの公式サプライヤーに就任した。"
+ },
+ {
+  "id": "c09-s1",
+  "companyId": "c09",
+  "kind": "site",
+  "title": "トライフィット株式会社（架空）　会社のサイト：会社概要",
+  "url": "https://www.trifit.example/company",
+  "date": "2026-10-01",
+  "text": "24時間営業のフィットネスジムを首都圏で35店舗運営。お問い合わせの窓口はマーケティング部。"
+ },
+ {
+  "id": "c09-s2",
+  "companyId": "c09",
+  "kind": "news",
+  "title": "トライフィット株式会社（架空）　ニュースリリース",
+  "url": "https://www.trifit.example/news/20261005",
+  "date": "2026-10-05",
+  "text": "トライフィット（架空）は2026年10月5日、年内に首都圏で5店舗を新たに出店すると発表した。"
+ },
+ {
+  "id": "c09-s3",
+  "companyId": "c09",
+  "kind": "news",
+  "title": "トライフィット株式会社（架空）　ニュースリリース",
+  "url": "https://www.trifit.example/news/20260815",
+  "date": "2026-08-15",
+  "text": "トライフィット（架空）は2026年8月、学生向けの月額プランを開始した。"
+ },
+ {
+  "id": "c10-s1",
+  "companyId": "c10",
+  "kind": "site",
+  "title": "しおかぜウォーター株式会社（架空）　会社のサイト：会社概要",
+  "url": "https://www.shiokaze-water.example/company",
+  "date": "2026-10-01",
+  "text": "瀬戸内の水を使ったミネラルウォーターの製造・販売。お問い合わせの窓口は営業企画部。"
+ },
+ {
+  "id": "c10-s2",
+  "companyId": "c10",
+  "kind": "news",
+  "title": "しおかぜウォーター株式会社（架空）　ニュースリリース",
+  "url": "https://www.shiokaze-water.example/news/20260808",
+  "date": "2026-08-08",
+  "text": "しおかぜウォーター（架空）は2026年8月、地元の高校野球の大会に、選手と観客向けの飲料を提供した。"
+ },
+ {
+  "id": "c10-s3",
+  "companyId": "c10",
+  "kind": "news",
+  "title": "しおかぜウォーター株式会社（架空）　ニュースリリース",
+  "url": "https://www.shiokaze-water.example/news/20260415",
+  "date": "2026-04-15",
+  "text": "しおかぜウォーター（架空）は2026年4月、持ち運びやすい350mlのボトルを発売した。"
+ },
+ {
+  "id": "c11-s1",
+  "companyId": "c11",
+  "kind": "site",
+  "title": "グリーンプロテイン株式会社（架空）　会社のサイト：会社概要",
+  "url": "https://www.green-protein.example/company",
+  "date": "2026-10-01",
+  "text": "植物性のプロテインの開発・ネット販売。お問い合わせの窓口は経営企画室。"
+ },
+ {
+  "id": "c11-s2",
+  "companyId": "c11",
+  "kind": "news",
+  "title": "グリーンプロテイン株式会社（架空）　ニュースリリース",
+  "url": "https://www.green-protein.example/news/20260918",
+  "date": "2026-09-18",
+  "text": "グリーンプロテイン（架空）は2026年9月18日、大豆と抹茶を使ったプロテインを発売した。"
+ },
+ {
+  "id": "c11-s3",
+  "companyId": "c11",
+  "kind": "news",
+  "title": "グリーンプロテイン株式会社（架空）　ニュースリリース",
+  "url": "https://www.green-protein.example/news/20261010",
+  "date": "2026-10-10",
+  "text": "グリーンプロテイン（架空）は2026年10月、SNSでの若い世代向けの発信を強化するため、動画の投稿を週3回に増やすと発表した。"
+ },
+ {
+  "id": "c12-s1",
+  "companyId": "c12",
+  "kind": "site",
+  "title": "あおば損害保険株式会社（架空）　会社のサイト：会社概要",
+  "url": "https://www.aoba-sonpo.example/company",
+  "date": "2026-10-01",
+  "text": "自動車保険と火災保険を中心とする損害保険会社。お問い合わせの窓口は広報・CSR部。"
+ },
+ {
+  "id": "c12-s2",
+  "companyId": "c12",
+  "kind": "news",
+  "title": "あおば損害保険株式会社（架空）　ニュースリリース",
+  "url": "https://www.aoba-sonpo.example/news/20260720",
+  "date": "2026-07-20",
+  "text": "あおば損害保険（架空）は2026年7月、子ども向けの交通安全教室を神奈川県内の小学校で開始した。"
+ },
+ {
+  "id": "c13-s1",
+  "companyId": "c13",
+  "kind": "site",
+  "title": "こがね製パン株式会社（架空）　会社のサイト：会社概要",
+  "url": "https://www.kogane-bread.example/company",
+  "date": "2026-10-01",
+  "text": "パンと焼き菓子の製造・販売。関西のスーパーに卸している。お問い合わせの窓口は商品企画部。"
+ },
+ {
+  "id": "c13-s2",
+  "companyId": "c13",
+  "kind": "news",
+  "title": "こがね製パン株式会社（架空）　ニュースリリース",
+  "url": "https://www.kogane-bread.example/news/20261002",
+  "date": "2026-10-02",
+  "text": "こがね製パン（架空）は2026年10月2日、運動の前後に食べる補食パンのシリーズを関西で発売した。"
+ },
+ {
+  "id": "c14-s1",
+  "companyId": "c14",
+  "kind": "site",
+  "title": "スマイル銀行株式会社（架空）　会社のサイト：会社概要",
+  "url": "https://www.smile-bank.example/company",
+  "date": "2026-10-01",
+  "text": "関西を地盤とする地方銀行。お問い合わせの窓口は経営企画部。"
+ },
+ {
+  "id": "c14-s2",
+  "companyId": "c14",
+  "kind": "news",
+  "title": "スマイル銀行株式会社（架空）　ニュースリリース",
+  "url": "https://www.smile-bank.example/news/20261201",
+  "date": "2026-12-01",
+  "text": "スマイル銀行（架空）は2026年9月、12月に創立70周年を迎えるにあたり、地域のスポーツと文化を応援する記念事業を行うと発表した。"
+ },
+ {
+  "id": "c15-s1",
+  "companyId": "c15",
+  "kind": "site",
+  "title": "ほしぞら飲料株式会社（架空）　会社のサイト：会社概要",
+  "url": "https://www.hoshizora-drink.example/company",
+  "date": "2026-10-01",
+  "text": "お茶とコーヒーの飲料の製造・販売。お問い合わせの窓口は営業部。"
+ },
+ {
+  "id": "c15-s2",
+  "companyId": "c15",
+  "kind": "news",
+  "title": "ほしぞら飲料株式会社（架空）　ニュースリリース",
+  "url": "https://www.hoshizora-drink.example/news/20260610",
+  "date": "2026-06-10",
+  "text": "ほしぞら飲料（架空）は2026年6月、低カフェインの緑茶飲料を発売した。"
+ },
+ {
+  "id": "c16-s1",
+  "companyId": "c16",
+  "kind": "site",
+  "title": "ランナーズラボ株式会社（架空）　会社のサイト：会社概要",
+  "url": "https://www.runners-lab.example/company",
+  "date": "2026-10-01",
+  "text": "ランニング用の時計とアプリの開発。お問い合わせの窓口は事業開発部。"
+ },
+ {
+  "id": "c16-s2",
+  "companyId": "c16",
+  "kind": "news",
+  "title": "ランナーズラボ株式会社（架空）　ニュースリリース",
+  "url": "https://www.runners-lab.example/news/20260905",
+  "date": "2026-09-05",
+  "text": "ランナーズラボ（架空）は2026年9月5日、練習の記録とレースの分析ができるランニング用のアプリを公開した。"
+ },
+ {
+  "id": "c16-s3",
+  "companyId": "c16",
+  "kind": "news",
+  "title": "ランナーズラボ株式会社（架空）　ニュースリリース",
+  "url": "https://www.runners-lab.example/news/20261012",
+  "date": "2026-10-12",
+  "text": "ランナーズラボ（架空）は2026年10月12日、市民ランナー向けのオンラインの大会を初めて開催した。"
+ },
+ {
+  "id": "c17-s1",
+  "companyId": "c17",
+  "kind": "site",
+  "title": "ゆうき食品株式会社（架空）　会社のサイト：会社概要",
+  "url": "https://www.yuki-foods.example/company",
+  "date": "2026-10-01",
+  "text": "北海道の素材を使った惣菜とスープの製造。お問い合わせの窓口は販売促進課。"
+ },
+ {
+  "id": "c17-s2",
+  "companyId": "c17",
+  "kind": "news",
+  "title": "ゆうき食品株式会社（架空）　ニュースリリース",
+  "url": "https://www.yuki-foods.example/news/20260825",
+  "date": "2026-08-25",
+  "text": "ゆうき食品（架空）は2026年8月、地元の少年サッカー大会に協賛し、参加した選手にスープを提供した。"
+ },
+ {
+  "id": "c18-s1",
+  "companyId": "c18",
+  "kind": "site",
+  "title": "あさひスポーツ用品（架空）　会社のサイト：会社概要",
+  "url": "https://www.asahi-sports.example/company",
+  "date": "2026-10-01",
+  "text": "ランニングシューズとトレーニングウェアの企画・販売。お問い合わせの窓口はマーケティング部。"
+ },
+ {
+  "id": "c18-s2",
+  "companyId": "c18",
+  "kind": "news",
+  "title": "あさひスポーツ用品（架空）　ニュースリリース",
+  "url": "https://www.asahi-sports.example/news/20260820",
+  "date": "2026-08-20",
+  "text": "あさひスポーツ用品（架空）は2026年8月20日、厚底のランニングシューズを発売した。"
+ },
+ {
+  "id": "c19-s1",
+  "companyId": "c19",
+  "kind": "site",
+  "title": "みどり証券株式会社（架空）　会社のサイト：会社概要",
+  "url": "https://www.midori-sec.example/company",
+  "date": "2026-10-01",
+  "text": "個人向けの証券会社。お問い合わせの窓口はマーケティング部。"
+ },
+ {
+  "id": "c19-s2",
+  "companyId": "c19",
+  "kind": "news",
+  "title": "みどり証券株式会社（架空）　ニュースリリース",
+  "url": "https://www.midori-sec.example/news/20260901",
+  "date": "2026-09-01",
+  "text": "みどり証券（架空）は2026年9月、20代向けの投資の講座をオンラインで開始した。"
+ },
+ {
+  "id": "c20-s1",
+  "companyId": "c20",
+  "kind": "site",
+  "title": "ボディラボ株式会社（架空）　会社のサイト：会社概要",
+  "url": "https://www.bodylab.example/company",
+  "date": "2026-10-01",
+  "text": "パーソナルトレーニングのジムを名古屋で6店舗運営。お問い合わせの窓口は代表室。"
+ },
+ {
+  "id": "c20-s2",
+  "companyId": "c20",
+  "kind": "news",
+  "title": "ボディラボ株式会社（架空）　ニュースリリース",
+  "url": "https://www.bodylab.example/news/20260928",
+  "date": "2026-09-28",
+  "text": "ボディラボ（架空）は2026年9月28日、名古屋駅前に7店舗目となる新店舗を開業した。"
+ },
+ {
+  "id": "c21-s1",
+  "companyId": "c21",
+  "kind": "site",
+  "title": "ことぶき精機株式会社（架空）　会社のサイト：会社概要",
+  "url": "https://www.kotobuki-seiki.example/company",
+  "date": "2026-10-01",
+  "text": "自動車部品の精密加工を行う製造業。社員は約180人。お問い合わせの窓口は総務部 採用担当。"
+ },
+ {
+  "id": "c21-s2",
+  "companyId": "c21",
+  "kind": "recruit",
+  "title": "ことぶき精機株式会社（架空）　採用ページ",
+  "url": "https://www.kotobuki-seiki.example/recruit/20260915",
+  "date": "2026-09-15",
+  "text": "ことぶき精機（架空）の採用ページによると、2027年度の新卒採用は前年の2倍となる20人を予定している。工場見学と若手社員との座談会を毎月開いている。"
+ },
+ {
+  "id": "c21-s3",
+  "companyId": "c21",
+  "kind": "news",
+  "title": "ことぶき精機株式会社（架空）　ニュースリリース",
+  "url": "https://www.kotobuki-seiki.example/news/20260601",
+  "date": "2026-06-01",
+  "text": "ことぶき精機（架空）は2026年6月、第二工場を稼働した。最新の加工機を20台導入した。"
+ },
+ {
+  "id": "c22-s1",
+  "companyId": "c22",
+  "kind": "site",
+  "title": "そよかぜ介護サービス株式会社（架空）　会社のサイト：会社概要",
+  "url": "https://www.soyokaze-care.example/company",
+  "date": "2026-10-01",
+  "text": "福岡県内で介護施設とデイサービスを24か所運営。お問い合わせの窓口は人事部。"
+ },
+ {
+  "id": "c22-s2",
+  "companyId": "c22",
+  "kind": "recruit",
+  "title": "そよかぜ介護サービス株式会社（架空）　採用ページ",
+  "url": "https://www.soyokaze-care.example/recruit/20261001",
+  "date": "2026-10-01",
+  "text": "そよかぜ介護サービス（架空）の採用ページによると、2026年10月から介護職の中途採用を強化し、未経験者向けの研修制度を新しく設けた。"
+ },
+ {
+  "id": "c22-s3",
+  "companyId": "c22",
+  "kind": "news",
+  "title": "そよかぜ介護サービス株式会社（架空）　ニュースリリース",
+  "url": "https://www.soyokaze-care.example/news/20260401",
+  "date": "2026-04-01",
+  "text": "そよかぜ介護サービス（架空）は2026年4月、創業20周年を記念して、地域の方向けの施設の見学会を開始した。"
+ },
+ {
+  "id": "c23-s1",
+  "companyId": "c23",
+  "kind": "site",
+  "title": "テックリンク株式会社（架空）　会社のサイト：会社概要",
+  "url": "https://www.techlink.example/company",
+  "date": "2026-10-01",
+  "text": "中小企業向けの業務アプリを開発するIT企業。お問い合わせの窓口は人事部。"
+ },
+ {
+  "id": "c23-s2",
+  "companyId": "c23",
+  "kind": "recruit",
+  "title": "テックリンク株式会社（架空）　採用ページ",
+  "url": "https://www.techlink.example/recruit/20260901",
+  "date": "2026-09-01",
+  "text": "テックリンク（架空）の採用ページによると、2026年9月からエンジニアの採用を強化し、年内に15人の採用を目指している。"
+ },
+ {
+  "id": "c23-s3",
+  "companyId": "c23",
+  "kind": "news",
+  "title": "テックリンク株式会社（架空）　ニュースリリース",
+  "url": "https://www.techlink.example/news/20260715",
+  "date": "2026-07-15",
+  "text": "テックリンク（架空）は2026年7月15日、飲食店向けの予約アプリを公開した。"
+ },
+ {
+  "id": "c24-s1",
+  "companyId": "c24",
+  "kind": "site",
+  "title": "ひまわり建設株式会社（架空）　会社のサイト：会社概要",
+  "url": "https://www.himawari-kensetsu.example/company",
+  "date": "2026-10-01",
+  "text": "住宅と商業施設の建設。お問い合わせの窓口は総務部。"
+ },
+ {
+  "id": "c24-s2",
+  "companyId": "c24",
+  "kind": "recruit",
+  "title": "ひまわり建設株式会社（架空）　採用ページ",
+  "url": "https://www.himawari-kensetsu.example/recruit/20260801",
+  "date": "2026-08-01",
+  "text": "ひまわり建設（架空）は2026年8月、施工管理の採用を強化した。"
+ },
+ {
+  "id": "c25-s1",
+  "companyId": "c25",
+  "kind": "site",
+  "title": "つばさ物流株式会社（架空）　会社のサイト：会社概要",
+  "url": "https://www.tsubasa-logi.example/company",
+  "date": "2026-10-01",
+  "text": "首都圏の配送と倉庫の運営。お問い合わせの窓口は人事部。"
+ },
+ {
+  "id": "c25-s2",
+  "companyId": "c25",
+  "kind": "recruit",
+  "title": "つばさ物流株式会社（架空）　採用ページ",
+  "url": "https://www.tsubasa-logi.example/recruit/20260701",
+  "date": "2026-07-01",
+  "text": "つばさ物流（架空）は2026年7月、ドライバーの採用を強化した。"
+ },
+ {
+  "id": "c26-s1",
+  "companyId": "c26",
+  "kind": "site",
+  "title": "まるやま工業株式会社（架空）　会社のサイト：会社概要",
+  "url": "https://www.maruyama-kogyo.example/company",
+  "date": "2026-10-01",
+  "text": "産業用ポンプの設計・製造。お問い合わせの窓口は管理部。"
+ },
+ {
+  "id": "c26-s2",
+  "companyId": "c26",
+  "kind": "news",
+  "title": "まるやま工業株式会社（架空）　ニュースリリース",
+  "url": "https://www.maruyama-kogyo.example/news/20261115",
+  "date": "2026-11-15",
+  "text": "まるやま工業（架空）は2026年11月15日に創業60周年を迎える。記念の式典と工場の一般公開を予定している。"
+ },
+ {
+  "id": "c26-s3",
+  "companyId": "c26",
+  "kind": "recruit",
+  "title": "まるやま工業株式会社（架空）　採用ページ",
+  "url": "https://www.maruyama-kogyo.example/recruit/20260920",
+  "date": "2026-09-20",
+  "text": "まるやま工業（架空）の採用ページによると、2027年春の高卒の採用を5年ぶりに再開する。"
+ },
+ {
+  "id": "c27-s1",
+  "companyId": "c27",
+  "kind": "site",
+  "title": "あおぞら不動産株式会社（架空）　会社のサイト：会社概要",
+  "url": "https://www.aozora-fudosan.example/company",
+  "date": "2026-10-01",
+  "text": "賃貸と売買の仲介。横浜に8店舗。お問い合わせの窓口は営業企画部。"
+ },
+ {
+  "id": "c27-s2",
+  "companyId": "c27",
+  "kind": "news",
+  "title": "あおぞら不動産株式会社（架空）　ニュースリリース",
+  "url": "https://www.aozora-fudosan.example/news/20261001",
+  "date": "2026-10-01",
+  "text": "あおぞら不動産（架空）は2026年10月1日、川崎に9店舗目を開業した。"
+ },
+ {
+  "id": "c27-s3",
+  "companyId": "c27",
+  "kind": "recruit",
+  "title": "あおぞら不動産株式会社（架空）　採用ページ",
+  "url": "https://www.aozora-fudosan.example/recruit/20260810",
+  "date": "2026-08-10",
+  "text": "あおぞら不動産（架空）の採用ページによると、2026年8月から営業職の採用を開始した。"
+ },
+ {
+  "id": "c28-s1",
+  "companyId": "c28",
+  "kind": "site",
+  "title": "ほくと運輸株式会社（架空）　会社のサイト：会社概要",
+  "url": "https://www.hokuto-unyu.example/company",
+  "date": "2026-10-01",
+  "text": "東北の幹線輸送と倉庫。お問い合わせの窓口は人事部。"
+ },
+ {
+  "id": "c28-s2",
+  "companyId": "c28",
+  "kind": "recruit",
+  "title": "ほくと運輸株式会社（架空）　採用ページ",
+  "url": "https://www.hokuto-unyu.example/recruit/20260905",
+  "date": "2026-09-05",
+  "text": "ほくと運輸（架空）は2026年9月、女性ドライバーの採用を強化し、短時間の勤務の制度を新しく設けた。"
+ },
+ {
+  "id": "c29-s1",
+  "companyId": "c29",
+  "kind": "site",
+  "title": "クラウドワン株式会社（架空）　会社のサイト：会社概要",
+  "url": "https://www.cloudone.example/company",
+  "date": "2026-10-01",
+  "text": "クラウドの導入支援。お問い合わせの窓口は代表室。"
+ },
+ {
+  "id": "c29-s2",
+  "companyId": "c29",
+  "kind": "news",
+  "title": "クラウドワン株式会社（架空）　ニュースリリース",
+  "url": "https://www.cloudone.example/news/20260801",
+  "date": "2026-08-01",
+  "text": "クラウドワン（架空）は2026年8月、東京に営業所を開設した。"
+ },
+ {
+  "id": "c29-s3",
+  "companyId": "c29",
+  "kind": "recruit",
+  "title": "クラウドワン株式会社（架空）　採用ページ",
+  "url": "https://www.cloudone.example/recruit/20261005",
+  "date": "2026-10-05",
+  "text": "クラウドワン（架空）の採用ページによると、東京の営業所で営業職を3人募集している。"
+ },
+ {
+  "id": "c30-s1",
+  "companyId": "c30",
+  "kind": "site",
+  "title": "やまと鉄工株式会社（架空）　会社のサイト：会社概要",
+  "url": "https://www.yamato-tekko.example/company",
+  "date": "2026-10-01",
+  "text": "船舶部品の溶接と加工。お問い合わせの窓口は総務部。"
+ },
+ {
+  "id": "c30-s2",
+  "companyId": "c30",
+  "kind": "recruit",
+  "title": "やまと鉄工株式会社（架空）　採用ページ",
+  "url": "https://www.yamato-tekko.example/recruit/20260615",
+  "date": "2026-06-15",
+  "text": "やまと鉄工（架空）の採用ページによると、2026年6月から若手の溶接技能者を募集している。"
+ },
+ {
+  "id": "c31-s1",
+  "companyId": "c31",
+  "kind": "site",
+  "title": "はなみずき介護株式会社（架空）　会社のサイト：会社概要",
+  "url": "https://www.hanamizuki-care.example/company",
+  "date": "2026-10-01",
+  "text": "訪問介護とグループホームの運営。お問い合わせの窓口は人事部。"
+ },
+ {
+  "id": "c31-s2",
+  "companyId": "c31",
+  "kind": "recruit",
+  "title": "はなみずき介護株式会社（架空）　採用ページ",
+  "url": "https://www.hanamizuki-care.example/recruit/20261010",
+  "date": "2026-10-10",
+  "text": "はなみずき介護（架空）は2026年10月、訪問介護のスタッフの募集を開始した。"
+ },
+ {
+  "id": "c32-s1",
+  "companyId": "c32",
+  "kind": "site",
+  "title": "ネクストシステム株式会社（架空）　会社のサイト：会社概要",
+  "url": "https://www.nextsystem.example/company",
+  "date": "2026-10-01",
+  "text": "金融機関向けのシステム開発。お問い合わせの窓口は人事部。"
+ },
+ {
+  "id": "c32-s2",
+  "companyId": "c32",
+  "kind": "recruit",
+  "title": "ネクストシステム株式会社（架空）　採用ページ",
+  "url": "https://www.nextsystem.example/recruit/20260701",
+  "date": "2026-07-01",
+  "text": "ネクストシステム（架空）は2026年7月、新卒採用の説明会の配信を開始した。"
+ },
+ {
+  "id": "c32-s3",
+  "companyId": "c32",
+  "kind": "news",
+  "title": "ネクストシステム株式会社（架空）　ニュースリリース",
+  "url": "https://www.nextsystem.example/news/20261001",
+  "date": "2026-10-01",
+  "text": "ネクストシステム（架空）は2026年10月1日、創業30周年を迎えた。"
+ },
+ {
+  "id": "c33-s1",
+  "companyId": "c33",
+  "kind": "site",
+  "title": "いずみ建設株式会社（架空）　会社のサイト：会社概要",
+  "url": "https://www.izumi-kensetsu.example/company",
+  "date": "2026-10-01",
+  "text": "道路と橋の工事。お問い合わせの窓口は総務部。"
+ },
+ {
+  "id": "c33-s2",
+  "companyId": "c33",
+  "kind": "recruit",
+  "title": "いずみ建設株式会社（架空）　採用ページ",
+  "url": "https://www.izumi-kensetsu.example/recruit/20260901",
+  "date": "2026-09-01",
+  "text": "いずみ建設（架空）は2026年9月、施工管理の若手の募集を開始した。"
+ },
+ {
+  "id": "c34-s1",
+  "companyId": "c34",
+  "kind": "site",
+  "title": "フューチャーホーム株式会社（架空）　会社のサイト：会社概要",
+  "url": "https://www.futurehome.example/company",
+  "date": "2026-10-01",
+  "text": "リノベーション住宅の販売。お問い合わせの窓口は広報。"
+ },
+ {
+  "id": "c34-s2",
+  "companyId": "c34",
+  "kind": "news",
+  "title": "フューチャーホーム株式会社（架空）　ニュースリリース",
+  "url": "https://www.futurehome.example/news/20260912",
+  "date": "2026-09-12",
+  "text": "フューチャーホーム（架空）は2026年9月12日、子育て世帯向けのリノベーションの新しいプランを発表した。"
+ },
+ {
+  "id": "c35-s1",
+  "companyId": "c35",
+  "kind": "site",
+  "title": "さかえ化学株式会社（架空）　会社のサイト：会社概要",
+  "url": "https://www.sakae-chem.example/company",
+  "date": "2026-10-01",
+  "text": "塗料と接着剤の製造。お問い合わせの窓口は人事部。"
+ },
+ {
+  "id": "c35-s2",
+  "companyId": "c35",
+  "kind": "recruit",
+  "title": "さかえ化学株式会社（架空）　採用ページ",
+  "url": "https://www.sakae-chem.example/recruit/20260820",
+  "date": "2026-08-20",
+  "text": "さかえ化学（架空）は2026年8月、研究職の中途採用を開始した。"
+ },
+ {
+  "id": "c36-s1",
+  "companyId": "c36",
+  "kind": "site",
+  "title": "ひだまりケア株式会社（架空）　会社のサイト：会社概要",
+  "url": "https://www.hidamari-care.example/company",
+  "date": "2026-10-01",
+  "text": "小規模のデイサービスを3か所運営。お問い合わせの窓口は代表。"
+ },
+ {
+  "id": "c36-s2",
+  "companyId": "c36",
+  "kind": "news",
+  "title": "ひだまりケア株式会社（架空）　ニュースリリース",
+  "url": "https://www.hidamari-care.example/news/20261001",
+  "date": "2026-10-01",
+  "text": "ひだまりケア（架空）は2026年10月1日、4か所目のデイサービスを開設した。"
+ },
+ {
+  "id": "c37-s1",
+  "companyId": "c37",
+  "kind": "site",
+  "title": "スカイロジ株式会社（架空）　会社のサイト：会社概要",
+  "url": "https://www.skylogi.example/company",
+  "date": "2026-10-01",
+  "text": "関西の宅配と倉庫。お問い合わせの窓口は人事部。"
+ },
+ {
+  "id": "c37-s2",
+  "companyId": "c37",
+  "kind": "news",
+  "title": "スカイロジ株式会社（架空）　ニュースリリース",
+  "url": "https://www.skylogi.example/news/20260701",
+  "date": "2026-07-01",
+  "text": "スカイロジ（架空）は2026年7月、新しい物流センターを稼働した。"
+ },
+ {
+  "id": "c37-s3",
+  "companyId": "c37",
+  "kind": "recruit",
+  "title": "スカイロジ株式会社（架空）　採用ページ",
+  "url": "https://www.skylogi.example/recruit/20260710",
+  "date": "2026-07-10",
+  "text": "スカイロジ（架空）は2026年7月、新しい物流センターの倉庫のスタッフを50人募集した。"
+ },
+ {
+  "id": "c38-s1",
+  "companyId": "c38",
+  "kind": "site",
+  "title": "ことぶき精機（架空）　会社のサイト：会社概要",
+  "url": "https://www.kotobuki-seiki.example/company",
+  "date": "2026-10-01",
+  "text": "自動車部品の精密加工。お問い合わせの窓口は総務部 採用担当。"
+ },
+ {
+  "id": "c38-s2",
+  "companyId": "c38",
+  "kind": "recruit",
+  "title": "ことぶき精機（架空）　採用ページ",
+  "url": "https://www.kotobuki-seiki.example/recruit/20260915",
+  "date": "2026-09-15",
+  "text": "ことぶき精機（架空）は新卒採用を拡大する。"
+ },
+ {
+  "id": "c39-s1",
+  "companyId": "c39",
+  "kind": "site",
+  "title": "デジタルブリッジ株式会社（架空）　会社のサイト：会社概要",
+  "url": "https://www.digitalbridge.example/company",
+  "date": "2026-10-01",
+  "text": "自治体向けのウェブサイトの制作。お問い合わせの窓口は代表室。"
+ },
+ {
+  "id": "c39-s2",
+  "companyId": "c39",
+  "kind": "news",
+  "title": "デジタルブリッジ株式会社（架空）　ニュースリリース",
+  "url": "https://www.digitalbridge.example/news/20260801",
+  "date": "2026-08-01",
+  "text": "デジタルブリッジ（架空）は2026年8月1日、創業10周年を迎えた。"
+ },
+ {
+  "id": "c40-s1",
+  "companyId": "c40",
+  "kind": "site",
+  "title": "みずほし工務店（架空）　会社のサイト：会社概要",
+  "url": "https://www.mizuhoshi-koumuten.example/company",
+  "date": "2026-10-01",
+  "text": "注文住宅の設計と施工。お問い合わせの窓口は代表。"
+ },
+ {
+  "id": "c40-s2",
+  "companyId": "c40",
+  "kind": "news",
+  "title": "みずほし工務店（架空）　ニュースリリース",
+  "url": "https://www.mizuhoshi-koumuten.example/news/20260501",
+  "date": "2026-05-01",
+  "text": "みずほし工務店（架空）は2026年5月、平屋の新しいモデルハウスを公開した。"
+ },
+ {
+  "id": "c41-s1",
+  "companyId": "c41",
+  "kind": "site",
+  "title": "カフェ こもれび（架空）　会社のサイト：会社概要",
+  "url": "https://www.komorebi-cafe.example/company",
+  "date": "2026-10-01",
+  "text": "京都の住宅街にある、自家焙煎のコーヒーと焼き菓子のカフェ。お問い合わせの窓口は店主。"
+ },
+ {
+  "id": "c41-s2",
+  "companyId": "c41",
+  "kind": "sns",
+  "title": "カフェ こもれび（架空）　公式のお知らせ",
+  "url": "https://www.komorebi-cafe.example/info/20260920",
+  "date": "2026-09-20",
+  "text": "カフェ こもれび（架空）は2026年9月20日、公式のインスタグラムを開設した。季節の焼き菓子と、焙煎の様子を紹介していくとしている。"
+ },
+ {
+  "id": "c41-s3",
+  "companyId": "c41",
+  "kind": "news",
+  "title": "カフェ こもれび（架空）　ニュースリリース",
+  "url": "https://www.komorebi-cafe.example/news/20261001",
+  "date": "2026-10-01",
+  "text": "カフェ こもれび（架空）は2026年10月1日、秋限定のモンブランの提供を開始した。"
+ },
+ {
+  "id": "c42-s1",
+  "companyId": "c42",
+  "kind": "site",
+  "title": "ヘアサロン ルミエ（架空）　会社のサイト：会社概要",
+  "url": "https://www.lumier-hair.example/company",
+  "date": "2026-10-01",
+  "text": "福岡市内に3店舗を持つヘアサロン。カラーとヘッドスパが人気。お問い合わせの窓口はマネージャー。"
+ },
+ {
+  "id": "c42-s2",
+  "companyId": "c42",
+  "kind": "news",
+  "title": "ヘアサロン ルミエ（架空）　ニュースリリース",
+  "url": "https://www.lumier-hair.example/news/20261010",
+  "date": "2026-10-10",
+  "text": "ヘアサロン ルミエ（架空）は2026年10月10日、天神に3店舗目を開業した。"
+ },
+ {
+  "id": "c42-s3",
+  "companyId": "c42",
+  "kind": "sns",
+  "title": "ヘアサロン ルミエ（架空）　公式のお知らせ",
+  "url": "https://www.lumier-hair.example/info/20260801",
+  "date": "2026-08-01",
+  "text": "ヘアサロン ルミエ（架空）は2026年8月、スタッフごとのSNSアカウントでの発信を開始した。"
+ },
+ {
+  "id": "c43-s1",
+  "companyId": "c43",
+  "kind": "site",
+  "title": "ゆのか旅館（架空）　会社のサイト：会社概要",
+  "url": "https://www.yunoka-ryokan.example/company",
+  "date": "2026-10-01",
+  "text": "瀬戸内の海が見える、客室12室の温泉旅館。お問い合わせの窓口は女将。"
+ },
+ {
+  "id": "c43-s2",
+  "companyId": "c43",
+  "kind": "news",
+  "title": "ゆのか旅館（架空）　ニュースリリース",
+  "url": "https://www.yunoka-ryokan.example/news/20260901",
+  "date": "2026-09-01",
+  "text": "ゆのか旅館（架空）は2026年9月1日、4つの客室を露天風呂つきの客室にリニューアルした。"
+ },
+ {
+  "id": "c43-s3",
+  "companyId": "c43",
+  "kind": "sns",
+  "title": "ゆのか旅館（架空）　公式のお知らせ",
+  "url": "https://www.yunoka-ryokan.example/info/20261005",
+  "date": "2026-10-05",
+  "text": "ゆのか旅館（架空）は2026年10月、海外のお客様向けに英語でのSNSの発信を開始した。"
+ },
+ {
+  "id": "c44-s1",
+  "companyId": "c44",
+  "kind": "site",
+  "title": "パティスリー ミエル（架空）　会社のサイト：会社概要",
+  "url": "https://www.patisserie-miel.example/company",
+  "date": "2026-10-01",
+  "text": "洋菓子店。お問い合わせの窓口は店主。"
+ },
+ {
+  "id": "c44-s2",
+  "companyId": "c44",
+  "kind": "news",
+  "title": "パティスリー ミエル（架空）　ニュースリリース",
+  "url": "https://www.patisserie-miel.example/news/20260601",
+  "date": "2026-06-01",
+  "text": "パティスリー ミエル（架空）は2026年6月、2店舗目を開業した。"
+ },
+ {
+  "id": "c45-s1",
+  "companyId": "c45",
+  "kind": "site",
+  "title": "セレクトショップ ノード（架空）　会社のサイト：会社概要",
+  "url": "https://www.node-select.example/company",
+  "date": "2026-10-01",
+  "text": "古着と国内ブランドのセレクトショップ。お問い合わせの窓口はプレス。"
+ },
+ {
+  "id": "c45-s2",
+  "companyId": "c45",
+  "kind": "news",
+  "title": "セレクトショップ ノード（架空）　ニュースリリース",
+  "url": "https://www.node-select.example/news/20260915",
+  "date": "2026-09-15",
+  "text": "セレクトショップ ノード（架空）は2026年9月15日、オリジナルブランドを発表した。"
+ },
+ {
+  "id": "c45-s3",
+  "companyId": "c45",
+  "kind": "sns",
+  "title": "セレクトショップ ノード（架空）　公式のお知らせ",
+  "url": "https://www.node-select.example/info/20260915",
+  "date": "2026-09-15",
+  "text": "セレクトショップ ノード（架空）は2026年9月、オリジナルブランドの公式アカウントを開設した。"
+ },
+ {
+  "id": "c46-s1",
+  "companyId": "c46",
+  "kind": "site",
+  "title": "ラーメン 一歩（架空）　会社のサイト：会社概要",
+  "url": "https://www.ramen-ippo.example/company",
+  "date": "2026-10-01",
+  "text": "札幌のラーメン店。3店舗。お問い合わせの窓口は店長。"
+ },
+ {
+  "id": "c46-s2",
+  "companyId": "c46",
+  "kind": "news",
+  "title": "ラーメン 一歩（架空）　ニュースリリース",
+  "url": "https://www.ramen-ippo.example/news/20261015",
+  "date": "2026-10-15",
+  "text": "ラーメン 一歩（架空）は2026年10月15日、新千歳に4店舗目を開業した。"
+ },
+ {
+  "id": "c47-s1",
+  "companyId": "c47",
+  "kind": "site",
+  "title": "さくらデンタルクリニック（架空）　会社のサイト：会社概要",
+  "url": "https://www.sakura-dental.example/company",
+  "date": "2026-10-01",
+  "text": "一般歯科と矯正歯科。お問い合わせの窓口は事務長。"
+ },
+ {
+  "id": "c47-s2",
+  "companyId": "c47",
+  "kind": "news",
+  "title": "さくらデンタルクリニック（架空）　ニュースリリース",
+  "url": "https://www.sakura-dental.example/news/20260801",
+  "date": "2026-08-01",
+  "text": "さくらデンタルクリニック（架空）は2026年8月、院内を全面改装した。"
+ },
+ {
+  "id": "c47-s3",
+  "companyId": "c47",
+  "kind": "sns",
+  "title": "さくらデンタルクリニック（架空）　公式のお知らせ",
+  "url": "https://www.sakura-dental.example/info/20260910",
+  "date": "2026-09-10",
+  "text": "さくらデンタルクリニック（架空）は2026年9月、公式のSNSを開設した。"
+ },
+ {
+  "id": "c48-s1",
+  "companyId": "c48",
+  "kind": "site",
+  "title": "雑貨店 てとて（架空）　会社のサイト：会社概要",
+  "url": "https://www.tetote-zakka.example/company",
+  "date": "2026-10-01",
+  "text": "手しごとの雑貨店。お問い合わせの窓口は店主。"
+ },
+ {
+  "id": "c48-s2",
+  "companyId": "c48",
+  "kind": "sns",
+  "title": "雑貨店 てとて（架空）　公式のお知らせ",
+  "url": "https://www.tetote-zakka.example/info/20260701",
+  "date": "2026-07-01",
+  "text": "雑貨店 てとて（架空）は2026年7月、オンラインショップを開設した。"
+ },
+ {
+  "id": "c49-s1",
+  "companyId": "c49",
+  "kind": "site",
+  "title": "焼肉 たけのこ（架空）　会社のサイト：会社概要",
+  "url": "https://www.yakiniku-takenoko.example/company",
+  "date": "2026-10-01",
+  "text": "焼肉店。2店舗。お問い合わせの窓口は店長。"
+ },
+ {
+  "id": "c49-s2",
+  "companyId": "c49",
+  "kind": "news",
+  "title": "焼肉 たけのこ（架空）　ニュースリリース",
+  "url": "https://www.yakiniku-takenoko.example/news/20260901",
+  "date": "2026-09-01",
+  "text": "焼肉 たけのこ（架空）は2026年9月、ランチの提供を開始した。"
+ },
+ {
+  "id": "c50-s1",
+  "companyId": "c50",
+  "kind": "site",
+  "title": "まつげサロン リリー（架空）　会社のサイト：会社概要",
+  "url": "https://www.lily-lash.example/company",
+  "date": "2026-10-01",
+  "text": "まつげのサロン。お問い合わせの窓口はオーナー。"
+ },
+ {
+  "id": "c50-s2",
+  "companyId": "c50",
+  "kind": "news",
+  "title": "まつげサロン リリー（架空）　ニュースリリース",
+  "url": "https://www.lily-lash.example/news/20260905",
+  "date": "2026-09-05",
+  "text": "まつげサロン リリー（架空）は2026年9月5日、栄に移転した。"
+ },
+ {
+  "id": "c50-s3",
+  "companyId": "c50",
+  "kind": "sns",
+  "title": "まつげサロン リリー（架空）　公式のお知らせ",
+  "url": "https://www.lily-lash.example/info/20260905",
+  "date": "2026-09-05",
+  "text": "まつげサロン リリー（架空）は2026年9月、予約の受付をSNSで開始した。"
+ },
+ {
+  "id": "c51-s1",
+  "companyId": "c51",
+  "kind": "site",
+  "title": "ホテル ベイサイド（架空）　会社のサイト：会社概要",
+  "url": "https://www.hotel-bayside.example/company",
+  "date": "2026-10-01",
+  "text": "港の見えるホテル。客室80室。お問い合わせの窓口は営業部。"
+ },
+ {
+  "id": "c51-s2",
+  "companyId": "c51",
+  "kind": "news",
+  "title": "ホテル ベイサイド（架空）　ニュースリリース",
+  "url": "https://www.hotel-bayside.example/news/20260715",
+  "date": "2026-07-15",
+  "text": "ホテル ベイサイド（架空）は2026年7月15日、レストランをリニューアルした。"
+ },
+ {
+  "id": "c52-s1",
+  "companyId": "c52",
+  "kind": "site",
+  "title": "和菓子 つきみ堂（架空）　会社のサイト：会社概要",
+  "url": "https://www.tsukimido.example/company",
+  "date": "2026-10-01",
+  "text": "創業80年の和菓子店。お問い合わせの窓口は広報。"
+ },
+ {
+  "id": "c52-s2",
+  "companyId": "c52",
+  "kind": "news",
+  "title": "和菓子 つきみ堂（架空）　ニュースリリース",
+  "url": "https://www.tsukimido.example/news/20260910",
+  "date": "2026-09-10",
+  "text": "和菓子 つきみ堂（架空）は2026年9月10日、季節限定の栗の和菓子を発売した。"
+ },
+ {
+  "id": "c52-s3",
+  "companyId": "c52",
+  "kind": "sns",
+  "title": "和菓子 つきみ堂（架空）　公式のお知らせ",
+  "url": "https://www.tsukimido.example/info/20261001",
+  "date": "2026-10-01",
+  "text": "和菓子 つきみ堂（架空）は2026年10月1日、公式のインスタグラムを開設した。"
+ },
+ {
+  "id": "c53-s1",
+  "companyId": "c53",
+  "kind": "site",
+  "title": "スポーツバー ゴール（架空）　会社のサイト：会社概要",
+  "url": "https://www.goal-bar.example/company",
+  "date": "2026-10-01",
+  "text": "スポーツ観戦のできるバー。お問い合わせの窓口は店長。"
+ },
+ {
+  "id": "c53-s2",
+  "companyId": "c53",
+  "kind": "news",
+  "title": "スポーツバー ゴール（架空）　ニュースリリース",
+  "url": "https://www.goal-bar.example/news/20260401",
+  "date": "2026-04-01",
+  "text": "スポーツバー ゴール（架空）は2026年4月、難波に開業した。"
+ },
+ {
+  "id": "c54-s1",
+  "companyId": "c54",
+  "kind": "site",
+  "title": "ネイルサロン ポラリス（架空）　会社のサイト：会社概要",
+  "url": "https://www.polaris-nail.example/company",
+  "date": "2026-10-01",
+  "text": "ネイルサロン。お問い合わせの窓口はオーナー。"
+ },
+ {
+  "id": "c54-s2",
+  "companyId": "c54",
+  "kind": "sns",
+  "title": "ネイルサロン ポラリス（架空）　公式のお知らせ",
+  "url": "https://www.polaris-nail.example/info/20260501",
+  "date": "2026-05-01",
+  "text": "ネイルサロン ポラリス（架空）は2026年5月、公式のSNSを開設した。"
+ },
+ {
+  "id": "c55-s1",
+  "companyId": "c55",
+  "kind": "site",
+  "title": "ベーカリー こむぎ（架空）　会社のサイト：会社概要",
+  "url": "https://www.bakery-komugi.example/company",
+  "date": "2026-10-01",
+  "text": "パン屋。お問い合わせの窓口は店主。"
+ },
+ {
+  "id": "c55-s2",
+  "companyId": "c55",
+  "kind": "news",
+  "title": "ベーカリー こむぎ（架空）　ニュースリリース",
+  "url": "https://www.bakery-komugi.example/news/20261003",
+  "date": "2026-10-03",
+  "text": "ベーカリー こむぎ（架空）は2026年10月3日、2店舗目を開業した。"
+ },
+ {
+  "id": "c56-s1",
+  "companyId": "c56",
+  "kind": "site",
+  "title": "まちのクリニック あおい（架空）　会社のサイト：会社概要",
+  "url": "https://www.clinic-aoi.example/company",
+  "date": "2026-10-01",
+  "text": "内科と小児科。お問い合わせの窓口は事務長。"
+ },
+ {
+  "id": "c56-s2",
+  "companyId": "c56",
+  "kind": "news",
+  "title": "まちのクリニック あおい（架空）　ニュースリリース",
+  "url": "https://www.clinic-aoi.example/news/20260601",
+  "date": "2026-06-01",
+  "text": "まちのクリニック あおい（架空）は2026年6月、オンライン診療を開始した。"
+ },
+ {
+  "id": "c57-s1",
+  "companyId": "c57",
+  "kind": "site",
+  "title": "あけぼの印刷株式会社（架空）　会社のサイト：会社概要",
+  "url": "https://www.akebono-print.example/company",
+  "date": "2026-10-01",
+  "text": "商業印刷。お問い合わせの窓口は営業部。"
+ },
+ {
+  "id": "c57-s2",
+  "companyId": "c57",
+  "kind": "news",
+  "title": "あけぼの印刷株式会社（架空）　ニュースリリース",
+  "url": "https://www.akebono-print.example/news/20260501",
+  "date": "2026-05-01",
+  "text": "あけぼの印刷（架空）は2026年5月、印刷機を更新した。"
+ },
+ {
+  "id": "c58-s1",
+  "companyId": "c58",
+  "kind": "site",
+  "title": "みらい会計事務所（架空）　会社のサイト：会社概要",
+  "url": "https://www.mirai-kaikei.example/company",
+  "date": "2026-10-01",
+  "text": "会計と税務の事務所。お問い合わせの窓口は所長。"
+ },
+ {
+  "id": "c58-s2",
+  "companyId": "c58",
+  "kind": "news",
+  "title": "みらい会計事務所（架空）　ニュースリリース",
+  "url": "https://www.mirai-kaikei.example/news/20260401",
+  "date": "2026-04-01",
+  "text": "みらい会計事務所（架空）は2026年4月、事務所を移転した。"
+ },
+ {
+  "id": "c59-s1",
+  "companyId": "c59",
+  "kind": "site",
+  "title": "たかはし農園（架空）　会社のサイト：会社概要",
+  "url": "https://www.takahashi-farm.example/company",
+  "date": "2026-10-01",
+  "text": "お茶の農園。お問い合わせの窓口は代表。"
+ },
+ {
+  "id": "c59-s2",
+  "companyId": "c59",
+  "kind": "news",
+  "title": "たかはし農園（架空）　ニュースリリース",
+  "url": "https://www.takahashi-farm.example/news/20260510",
+  "date": "2026-05-10",
+  "text": "たかはし農園（架空）は2026年5月10日、新茶の販売を開始した。"
+ },
+ {
+  "id": "c60-s1",
+  "companyId": "c60",
+  "kind": "site",
+  "title": "ひろせ法律事務所（架空）　会社のサイト：会社概要",
+  "url": "https://www.hirose-law.example/company",
+  "date": "2026-10-01",
+  "text": "企業法務の法律事務所。お問い合わせの窓口は事務局。"
+ },
+ {
+  "id": "c60-s2",
+  "companyId": "c60",
+  "kind": "news",
+  "title": "ひろせ法律事務所（架空）　ニュースリリース",
+  "url": "https://www.hirose-law.example/news/20260301",
+  "date": "2026-03-01",
+  "text": "ひろせ法律事務所（架空）は2026年3月、事務所を開設した。"
+ }
+]
