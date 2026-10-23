@@ -13,3 +13,6 @@ next-env.d.ts
 .vercel
 test-results/
 playwright-report/
+
+# ぱくたその写真（再配布が禁止のため、GitHubに上げない。Vercelへは CLI で直接上げる）
+public/photos/

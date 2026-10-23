@@ -3,7 +3,7 @@ import { expect, test, type Page } from "@playwright/test";
 async function confirmList(page: Page) {
   await page.goto("/list");
   await page.getByRole("button", { name: /リストを確定する/ }).click();
-  await expect(page.getByText("確定済み")).toBeVisible();
+  await expect(page.locator("span.chip", { hasText: "確定済み" })).toBeVisible();
 }
 async function draftAndSubmit(page: Page, c = "c01", ch = "email") {
   await page.goto(`/drafts?c=${c}&ch=${ch}`);
@@ -12,7 +12,7 @@ async function draftAndSubmit(page: Page, c = "c01", ch = "email") {
   await page.getByRole("button", { name: "承認待ちへ回す" }).click();
   await expect(page.getByRole("status")).toContainText("承認待ちに回しました");
 }
-const kpi = (page: Page, label: string) => page.getByTestId("kpis").locator("div.card", { hasText: label }).locator(".text-3xl");
+const kpi = (page: Page, label: string) => page.getByTestId("kpis").locator("div.card", { hasText: label }).locator(".kpi");
 
 test("通しの流れ：条件 → リスト → 下調べ → 下書き → 品質チェック → 承認 → 送付 → 返信の仕分け → 効果測定の数字が変わる", async ({ page }) => {
   await page.goto("/metrics");
@@ -46,7 +46,7 @@ test("通しの流れ：条件 → リスト → 下調べ → 下書き → 品
 
   await page.goto("/replies");
   await page.getByRole("button", { name: /返信を受け取る/ }).click();
-  await expect(page.getByTestId("replies").locator("tbody tr")).toHaveCount(12);
+  await expect(page.getByTestId("replies").locator("li[data-id]")).toHaveCount(12);
   await expect(page.getByText("デモで送った1件に返信が届き")).toBeVisible();
 
   await page.goto("/outbox");
@@ -154,7 +154,7 @@ test("返信の仕分け：12件を分類し、配信停止とお断りは除外
   for (const t of ["興味あり 3件", "資料がほしい 2件", "日程の調整 2件", "担当者が違う 1件", "今は不要 2件", "お断り 1件", "配信停止 1件"]) await expect(counts).toContainText(t);
   const ex = page.getByTestId("exclusions").locator("li");
   await expect(ex).toHaveCount(2);
-  const unsubscribed = (await page.locator('[data-category="unsubscribe"] td').first().locator(".font-bold").textContent())!;
+  const unsubscribed = (await page.locator('[data-category="unsubscribe"]').getByTestId("reply-company").textContent())!;
   await page.goto("/list");
   await expect(page.getByTestId("excluded")).toContainText(unsubscribed);
   await expect(page.getByTestId("excluded")).toContainText("配信停止（返信から自動で追加）");

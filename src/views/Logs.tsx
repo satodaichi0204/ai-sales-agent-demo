@@ -1,6 +1,7 @@
 "use client";
 // S12 動作の記録と利用料（14 土台）。AIの呼び出しの記録と、1日の利用料の上限
 import { PageHeader, RoleBox } from "@/components/ui";
+import { PHOTOS } from "@/lib/photos";
 import { useAppState } from "@/lib/store";
 
 export default function Logs() {
@@ -10,7 +11,7 @@ export default function Logs() {
 
   return (
     <>
-      <PageHeader no="14" title="動作の記録と利用料" lead="AI社員が、いつ、どの処理を、どれだけの時間と量で行ったかを記録します。本番では、1日の利用料が上限に近づくと止めて知らせます。" />
+      <PageHeader no="14" title="動作の記録と利用料" lead="AI社員が、いつ、どの処理を、どれだけの時間と量で行ったかを記録します。本番では、1日の利用料が上限に近づくと止めて知らせます。" photo={PHOTOS.deskAi} />
       <RoleBox
         ai={["すべての処理を記録する（時間、使った量、推定の費用）", "1日の利用料が上限を超えそうなら、処理を止めて知らせる"]}
         human={["上限の金額を決める", "おかしな動き（急な増加、失敗の続き）がないか、週1回見る"]}
@@ -18,7 +19,7 @@ export default function Logs() {
       <div className="mb-6 grid gap-3 md:grid-cols-3">
         <div className="card">
           <div className="text-xs font-bold text-sub">今日の利用料</div>
-          <div className="text-3xl font-bold">{yenToday}円</div>
+          <div className="text-3xl font-black">{yenToday}円</div>
           <div className="text-xs text-sub">見本モードのため、AIの利用料は0円です</div>
         </div>
         <label className="card block">
@@ -30,7 +31,7 @@ export default function Logs() {
         </label>
         <div className="card">
           <div className="text-xs font-bold text-sub">記録の件数</div>
-          <div className="text-3xl font-bold">{state.logs.length}件</div>
+          <div className="text-3xl font-black">{state.logs.length}件</div>
         </div>
       </div>
       <div className="card overflow-x-auto p-0">

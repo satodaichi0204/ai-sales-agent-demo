@@ -1,12 +1,37 @@
 "use client";
 // S2 営業リスト（02 営業準備）。採点と理由。除外リストと重複は自動で外す。最終決定は人
+import { Ban, Building2, CheckCircle2, Mail, MessageCircle, MousePointerClick, Sparkles } from "lucide-react";
 import Link from "next/link";
 import { useMemo, useState } from "react";
-import { PageHeader, RoleBox } from "@/components/ui";
-import { CHANNEL_LABEL, COMPANIES, PLAYBOOKS, SAMPLES, SIZE_LABEL } from "@/lib/data";
+import { PageHeader, RoleBox, Stat, Thumb } from "@/components/ui";
+import { COMPANIES, PLAYBOOKS, SAMPLES, SIZE_LABEL } from "@/lib/data";
+import { industryPhoto, PHOTOS } from "@/lib/photos";
+import { rankCompanies, recommended } from "@/lib/scoring";
 import { useAppState } from "@/lib/store";
 import { conditionsOf, confirmList } from "@/lib/state";
-import { rankCompanies, recommended } from "@/lib/scoring";
+
+const CH_ICON = { email: Mail, form: MousePointerClick, sns: MessageCircle };
+const CH_LABEL = { email: "メール", form: "フォーム", sns: "SNS" };
+
+function ScoreBar({ score, parts }: { score: number; parts: { industry: number; events: number; size: number; region: number } }) {
+  const seg = [
+    ["業種", parts.industry, "#2a5bd7"],
+    ["出来事", parts.events, "#13865b"],
+    ["規模", parts.size, "#eda100"],
+    ["地域", parts.region, "#6a4bd6"],
+  ] as const;
+  return (
+    <div className="w-28" title={seg.map(([l, v]) => `${l} ${v}`).join("／")}>
+      <div className={`text-lg leading-none font-black tabular-nums ${score >= 70 ? "text-ai" : score >= 50 ? "text-ink" : "text-mute"}`}>
+        {score}
+        <span className="ml-0.5 text-[10px] font-medium text-mute">点</span>
+      </div>
+      <div className="mt-1.5 flex h-1.5 gap-[2px] overflow-hidden rounded-full bg-paper">
+        {seg.map(([l, v, c]) => (v > 0 ? <span key={l} style={{ width: `${v}%`, background: c }} /> : null))}
+      </div>
+    </div>
+  );
+}
 
 export default function SalesList() {
   const [state, update] = useAppState();
@@ -21,7 +46,7 @@ export default function SalesList() {
 
   return (
     <>
-      <PageHeader no="02" title="営業リスト" lead={`「${PLAYBOOKS.businesses[b].name}」の条件で、架空の会社${COMPANIES.length}社を採点しました。AIのおすすめ（70点以上の上位10社）に印を付けています。リストに入れるかは人が決めます。`}>
+      <PageHeader no="02" title="営業リスト" lead={`「${PLAYBOOKS.businesses[b].name}」の条件で、架空の会社${COMPANIES.length}社を採点しました。AIのおすすめ（70点以上の上位10社）に印を付けています。リストに入れるかは人が決めます。`} photo={PHOTOS.stadium}>
         <Link href="/targets" className="btn">
           ← 条件を変える
         </Link>
@@ -31,7 +56,14 @@ export default function SalesList() {
         human={["リストに入れる会社と外す会社を決める（確定は人のボタンで）", "外された理由に誤りがないか確かめる"]}
       />
 
-      <div className="sticky top-0 z-10 mb-3 flex flex-wrap items-center justify-between gap-3 rounded-xl border border-line bg-white/95 p-3 backdrop-blur">
+      <div className="mb-5 grid grid-cols-2 gap-3 lg:grid-cols-4">
+        <Stat label="採点した会社" value={`${ranked.length}社`} note={`全${COMPANIES.length}社から除外を引いた数`} icon={<Building2 size={16} />} />
+        <Stat label="AIのおすすめ" value={`${rec.length}社`} note="70点以上の上位10社まで" icon={<Sparkles size={16} />} />
+        <Stat label="選んでいる会社" value={`${sel.length}社`} note={saved && !dirty ? "確定済み" : "まだ確定していません"} icon={<CheckCircle2 size={16} />} />
+        <Stat label="自動で除外" value={`${excluded.length}社`} note="取引中・断られた・配信停止・重複" icon={<Ban size={16} />} />
+      </div>
+
+      <div className="sticky top-[60px] z-10 mb-3 flex flex-wrap items-center justify-between gap-3 rounded-2xl border border-line bg-white/95 p-3 pl-4 shadow-card backdrop-blur">
         <div className="text-sm">
           <b>{sel.length}社</b>を選んでいます
           {saved && !dirty && <span className="chip ml-2 bg-ok-soft text-ok">確定済み</span>}
@@ -54,47 +86,68 @@ export default function SalesList() {
         </div>
       </div>
 
-      <div className="card mb-6 overflow-x-auto p-0">
-        <table className="tbl min-w-[860px]" data-testid="ranked">
+      <div className="card mb-8 overflow-x-auto p-0">
+        <table className="tbl min-w-[920px]" data-testid="ranked">
           <thead>
             <tr>
-              <th className="w-10">入れる</th>
-              <th className="w-12">順位</th>
+              <th className="w-12">入れる</th>
+              <th className="w-10">順位</th>
               <th>会社</th>
-              <th className="w-16">点数</th>
-              <th>採点の理由</th>
-              <th className="w-36">連絡の手段</th>
-              <th className="w-24"></th>
+              <th className="w-32">点数</th>
+              <th>採点の理由（AI）</th>
+              <th className="w-28">連絡の手段</th>
+              <th className="w-20"></th>
             </tr>
           </thead>
           <tbody>
             {ranked.map((r, i) => {
               const on = sel.includes(r.company.id);
               return (
-                <tr key={r.company.id} data-id={r.company.id} className={on ? "bg-ai-soft/50" : ""}>
-                  <td>
-                    <input type="checkbox" className="h-4 w-4 accent-[#2459a6]" checked={on} onChange={() => toggle(r.company.id)} aria-label={`${r.company.name}をリストに入れる`} />
+                <tr key={r.company.id} data-id={r.company.id} className={`transition ${on ? "bg-ai-soft/45" : "hover:bg-paper/60"}`}>
+                  <td className="pt-5">
+                    <input type="checkbox" className="h-[18px] w-[18px] accent-[#2a5bd7]" checked={on} onChange={() => toggle(r.company.id)} aria-label={`${r.company.name}をリストに入れる`} />
                   </td>
-                  <td className="text-sub">{i + 1}</td>
+                  <td className="pt-5 font-bold text-mute tabular-nums">{i + 1}</td>
                   <td>
-                    <div className="font-bold">{r.company.name}</div>
-                    <div className="text-xs text-sub">
-                      {r.company.industry}・{SIZE_LABEL[r.company.size]}・{r.company.region}
-                      {rec.includes(r.company.id) && <span className="chip ml-1.5 bg-ai text-white">AIのおすすめ</span>}
-                      {SAMPLES[r.company.id]?.business === b && <span className="chip ml-1.5 bg-paper text-sub">下調べの見本あり</span>}
+                    <div className="flex items-center gap-3">
+                      <Thumb photo={industryPhoto(r.company.industry)} size={48} />
+                      <div>
+                        <div className="font-bold">{r.company.name}</div>
+                        <div className="text-xs text-sub">
+                          {r.company.industry}・{SIZE_LABEL[r.company.size]}・{r.company.region}
+                        </div>
+                        <div className="mt-1 flex flex-wrap gap-1">
+                          {rec.includes(r.company.id) && (
+                            <span className="chip bg-ai text-white">
+                              <Sparkles size={11} />
+                              AIのおすすめ
+                            </span>
+                          )}
+                          {SAMPLES[r.company.id]?.business === b && <span className="chip bg-prep-soft text-prep">下調べの見本あり</span>}
+                        </div>
+                      </div>
                     </div>
                   </td>
-                  <td>
-                    <span className={`text-lg font-bold ${r.score >= 70 ? "text-ai" : r.score >= 50 ? "text-ink" : "text-off"}`}>{r.score}</span>
-                    <div className="text-[10px] leading-tight text-sub" title="業種／出来事／規模／地域">
-                      {r.parts.industry}/{r.parts.events}/{r.parts.size}/{r.parts.region}
+                  <td className="pt-4">
+                    <ScoreBar score={r.score} parts={r.parts} />
+                  </td>
+                  <td className="pt-4 text-[13px] leading-relaxed">{r.reason}</td>
+                  <td className="pt-4">
+                    <div className="flex flex-wrap gap-1">
+                      {r.company.channels.map((c) => {
+                        const Icon = CH_ICON[c];
+                        return (
+                          <span key={c} className="chip bg-paper px-2 text-sub" title={CH_LABEL[c]}>
+                            <Icon size={11} />
+                            {CH_LABEL[c]}
+                          </span>
+                        );
+                      })}
                     </div>
                   </td>
-                  <td className="text-sm">{r.reason}</td>
-                  <td className="text-xs text-sub">{r.company.channels.map((c) => (c === "sns" ? "SNS" : CHANNEL_LABEL[c])).join("、")}</td>
-                  <td>
-                    <Link href={`/research?c=${r.company.id}`} className="text-sm text-ai underline">
-                      下調べ
+                  <td className="pt-4">
+                    <Link href={`/research?c=${r.company.id}`} className="text-sm font-bold text-ai hover:underline">
+                      下調べ →
                     </Link>
                   </td>
                 </tr>
@@ -104,7 +157,10 @@ export default function SalesList() {
         </table>
       </div>
 
-      <h2 className="h2">自動で外した会社（{excluded.length}社）</h2>
+      <h2 className="h2">
+        <Ban size={18} className="text-human" />
+        自動で外した会社（{excluded.length}社）
+      </h2>
       <div className="card overflow-x-auto p-0">
         <table className="tbl" data-testid="excluded">
           <thead>
@@ -116,8 +172,13 @@ export default function SalesList() {
           <tbody>
             {excluded.map((e) => (
               <tr key={e.company.id} data-id={e.company.id}>
-                <td>{e.company.name}</td>
                 <td>
+                  <div className="flex items-center gap-3">
+                    <Thumb photo={industryPhoto(e.company.industry)} size={36} className="opacity-70 grayscale" />
+                    <span>{e.company.name}</span>
+                  </div>
+                </td>
+                <td className="align-middle">
                   <span className="chip bg-human-soft text-human">{e.reason}</span>
                 </td>
               </tr>

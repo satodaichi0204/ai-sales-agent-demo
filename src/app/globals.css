@@ -1,21 +1,28 @@
 @import "tailwindcss";
 
 @theme {
-  --color-ink: #1c2633;
-  --color-sub: #5b6676;
-  --color-line: #d9dee6;
-  --color-paper: #f4f6f9;
-  --color-navy: #1d2b3e;
-  --color-ai: #2459a6;
-  --color-ai-soft: #e8f0fb;
-  --color-human: #b4381f;
-  --color-human-soft: #fcebe6;
-  --color-ok: #1d7a4f;
-  --color-ok-soft: #e4f4ec;
-  --color-warn: #946200;
-  --color-warn-soft: #fdf3dc;
-  --color-off: #7c8592;
-  --font-sans: "Hiragino Sans", "Hiragino Kaku Gothic ProN", "Yu Gothic UI", "Meiryo", system-ui, sans-serif;
+  --color-ink: #0f1a2b;
+  --color-sub: #5a6577;
+  --color-mute: #8a94a6;
+  --color-line: #e2e7ef;
+  --color-paper: #f4f6fa;
+  --color-navy: #0c1626;
+  --color-ai: #2a5bd7;
+  --color-ai-soft: #ebf1fe;
+  --color-prep: #13865b;
+  --color-prep-soft: #e3f5ec;
+  --color-found: #6a4bd6;
+  --color-found-soft: #f0ecfd;
+  --color-human: #d2452a;
+  --color-human-soft: #fdeee9;
+  --color-ok: #148a55;
+  --color-ok-soft: #e2f5eb;
+  --color-warn: #a86a00;
+  --color-warn-soft: #fff4dc;
+  --color-off: #8a94a6;
+  --font-sans: var(--font-noto), "Hiragino Sans", "Yu Gothic UI", "Meiryo", system-ui, sans-serif;
+  --shadow-card: 0 1px 2px rgb(16 24 40 / 0.04), 0 10px 28px -14px rgb(16 24 40 / 0.16);
+  --shadow-lift: 0 2px 4px rgb(16 24 40 / 0.06), 0 18px 40px -16px rgb(16 24 40 / 0.28);
 }
 
 :root {
@@ -25,55 +32,96 @@ body {
   background: var(--color-paper);
   color: var(--color-ink);
   font-family: var(--font-sans);
-  line-height: 1.65;
+  font-feature-settings: "palt";
+  letter-spacing: 0.01em;
+  line-height: 1.7;
   -webkit-text-size-adjust: 100%;
 }
 
 @layer components {
   .card {
-    @apply rounded-xl border border-line bg-white p-5;
+    @apply rounded-2xl border border-line bg-white p-5 shadow-card;
   }
   .btn {
-    @apply inline-flex items-center justify-center gap-1.5 rounded-lg border border-line bg-white px-4 py-2 text-sm font-bold text-ink transition hover:bg-paper disabled:cursor-not-allowed disabled:opacity-45;
+    @apply inline-flex items-center justify-center gap-1.5 rounded-xl border border-line bg-white px-4 py-2 text-sm font-bold text-ink shadow-[0_1px_2px_rgb(16_24_40/0.05)] transition hover:border-[#c9d2df] hover:bg-paper disabled:cursor-not-allowed disabled:opacity-45;
   }
   .btn-primary {
-    @apply border-ai bg-ai text-white hover:bg-[#1c4a8c];
+    @apply border-transparent bg-gradient-to-b from-[#3769e6] to-ai text-white shadow-[0_6px_16px_-6px_rgb(42_91_215/0.6)] hover:from-[#2f60dc] hover:to-[#2350c4] hover:bg-transparent;
   }
   .btn-ok {
-    @apply border-ok bg-ok text-white hover:bg-[#166240];
+    @apply border-transparent bg-gradient-to-b from-[#1a9a60] to-ok text-white shadow-[0_6px_16px_-6px_rgb(20_138_85/0.55)] hover:to-[#0f7445] hover:bg-transparent;
   }
   .btn-danger {
-    @apply border-human bg-white text-human hover:bg-human-soft;
+    @apply border-human/40 bg-white text-human hover:bg-human-soft;
   }
   .chip {
-    @apply inline-flex items-center rounded-full px-2.5 py-0.5 text-xs font-bold whitespace-nowrap;
+    @apply inline-flex items-center gap-1 rounded-full px-2.5 py-0.5 text-xs font-bold whitespace-nowrap;
   }
   .tbl {
     @apply w-full border-collapse text-sm;
   }
   .tbl th {
-    @apply border-b border-line bg-paper px-3 py-2 text-left text-xs font-bold text-sub whitespace-nowrap;
+    @apply border-b border-line bg-[#f8fafc] px-4 py-2.5 text-left text-xs font-bold whitespace-nowrap text-sub;
   }
   .tbl td {
-    @apply border-b border-line px-3 py-2.5 align-top;
+    @apply border-b border-line px-4 py-3 align-top;
+  }
+  .tbl tbody tr:last-child td {
+    @apply border-b-0;
   }
   .field {
-    @apply w-full rounded-lg border border-line bg-white px-3 py-2 text-sm outline-none focus:border-ai focus:ring-2 focus:ring-ai/20;
+    @apply w-full rounded-xl border border-line bg-white px-3.5 py-2.5 text-sm outline-none transition focus:border-ai focus:ring-4 focus:ring-ai/12;
   }
   .h2 {
-    @apply mb-3 text-lg font-bold;
+    @apply mb-3 flex items-center gap-2 text-lg font-bold;
+  }
+  .eyebrow {
+    @apply text-[11px] font-bold tracking-[0.12em] text-mute;
   }
 }
 
 mark.flag {
-  background: #ffd9cf;
+  background: #ffdcd2;
   color: #7a1d0a;
   border-bottom: 2px solid var(--color-human);
-  padding: 0 1px;
-  border-radius: 2px;
+  padding: 0 2px;
+  border-radius: 3px;
 }
 mark.good {
-  background: #dcebfb;
+  background: #e1ebfd;
   color: inherit;
   border-bottom: 2px dotted var(--color-ai);
+  border-radius: 3px;
+}
+
+@keyframes rise {
+  from {
+    opacity: 0;
+    transform: translateY(6px);
+  }
+  to {
+    opacity: 1;
+    transform: none;
+  }
+}
+.rise {
+  animation: rise 0.45s ease both;
+}
+@keyframes pulse-dot {
+  0%,
+  100% {
+    box-shadow: 0 0 0 0 rgb(34 197 94 / 0.55);
+  }
+  50% {
+    box-shadow: 0 0 0 6px rgb(34 197 94 / 0);
+  }
+}
+.live-dot {
+  animation: pulse-dot 2s ease-in-out infinite;
+}
+@media (prefers-reduced-motion: reduce) {
+  .rise,
+  .live-dot {
+    animation: none;
+  }
 }
