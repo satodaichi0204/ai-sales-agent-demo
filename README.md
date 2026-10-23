@@ -15,7 +15,7 @@ npm run dev          # 開発用のサーバー（http://localhost:3000）
 npm run build        # 本番用にビルド
 npm test             # 単体テスト（Vitest）
 npm run test:e2e     # 通しのテスト（Playwright。パソコンとスマートフォンの画面の大きさ）
-BASE_URL=https://ai-sales-agent-demo.vercel.app npm run test:e2e   # 公開URLで確かめる
+BASE_URL=https://ai-eigyo-shain-demo.vercel.app npm run test:e2e   # 公開URLで確かめる
 npm run data         # 架空のデータ（data/*.json）を作り直す
 ```
 
